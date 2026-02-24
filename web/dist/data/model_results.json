@@ -1,0 +1,112 @@
+{
+  "model_info": {
+    "name": "Gradient Boosting (Hourly)",
+    "type": "classification",
+    "train_period": "Jan 2024 - Jun 2025",
+    "test_period": "Jul 2025 - Jan 2026",
+    "train_hours": 13105,
+    "test_hours": 5135
+  },
+  "metrics": {
+    "accuracy": 0.957,
+    "precision": 0.366,
+    "recall": 0.364,
+    "f1": 0.365
+  },
+  "feature_importance": [
+    {
+      "feature": "Zonnestraling",
+      "importance": 0.468
+    },
+    {
+      "feature": "Temperatuur",
+      "importance": 0.133
+    },
+    {
+      "feature": "Weekend",
+      "importance": 0.127
+    },
+    {
+      "feature": "Windsnelheid",
+      "importance": 0.114
+    },
+    {
+      "feature": "Uur",
+      "importance": 0.073
+    },
+    {
+      "feature": "Maand",
+      "importance": 0.059
+    },
+    {
+      "feature": "Feestdag",
+      "importance": 0.014
+    },
+    {
+      "feature": "Zonne-uur",
+      "importance": 0.01
+    },
+    {
+      "feature": "Heet (>25\u00b0C)",
+      "importance": 0.001
+    }
+  ],
+  "monthly_comparison": [
+    {
+      "month": "2025-07",
+      "month_label": "Jul 2025",
+      "actual": 12,
+      "predicted": 65,
+      "correct": 8
+    },
+    {
+      "month": "2025-08",
+      "month_label": "Aug 2025",
+      "actual": 57,
+      "predicted": 51,
+      "correct": 22
+    },
+    {
+      "month": "2025-09",
+      "month_label": "Sep 2025",
+      "actual": 61,
+      "predicted": 40,
+      "correct": 21
+    },
+    {
+      "month": "2025-10",
+      "month_label": "Oct 2025",
+      "actual": 46,
+      "predicted": 18,
+      "correct": 13
+    },
+    {
+      "month": "2025-11",
+      "month_label": "Nov 2025",
+      "actual": 0,
+      "predicted": 1,
+      "correct": 0
+    },
+    {
+      "month": "2025-12",
+      "month_label": "Dec 2025",
+      "actual": 0,
+      "predicted": 0,
+      "correct": 0
+    },
+    {
+      "month": "2026-01",
+      "month_label": "Jan 2026",
+      "actual": 0,
+      "predicted": 0,
+      "correct": 0
+    }
+  ],
+  "distribution_shift": {
+    "description": "Hot hours (>25\u00b0C) negative price rate changed",
+    "train_hot_hours": 243,
+    "train_neg_rate": 29.2,
+    "test_hot_hours": 104,
+    "test_neg_rate": 4.8
+  }
+}

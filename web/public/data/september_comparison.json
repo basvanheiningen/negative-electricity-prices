@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "2024": {
+      "negative_hours": 33,
+      "total_hours": 720,
+      "percentage": 4.6,
+      "avg_price": 77.6,
+      "min_price": -40.9
+    },
+    "2025": {
+      "negative_hours": 61,
+      "total_hours": 726,
+      "percentage": 8.4,
+      "avg_price": 77.8,
+      "min_price": -63.4
+    }
+  },
+  "key_differences": [
+    {
+      "factor": "Windenergie",
+      "2024": 2455.0,
+      "2025": 3102.0,
+      "change_pct": 26.4,
+      "unit": "MW"
+    },
+    {
+      "factor": "Totale vraag (productie)",
+      "2024": 11331.0,
+      "2025": 12863.0,
+      "change_pct": 13.5,
+      "unit": "MW"
+    },
+    {
+      "factor": "Gascentrales",
+      "2024": 3027.0,
+      "2025": 2868.0,
+      "change_pct": -5.2,
+      "unit": "MW"
+    }
+  ],
+  "weather": {
+    "wind_speed_2024": 2.9,
+    "wind_speed_2025": 3.5,
+    "wind_speed_change_pct": 18.7
+  }
+}

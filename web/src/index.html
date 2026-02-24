@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negatieve Elektriciteitsprijzen in Nederland</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <nav class="dot-nav" aria-label="Sectie navigatie">
+    <a href="#section-frequency" class="dot active" data-section="0" aria-label="Sectie 1: Frequentie"></a>
+    <a href="#section-causes" class="dot" data-section="1" aria-label="Sectie 2: Oorzaken"></a>
+    <a href="#section-energy-mix" class="dot" data-section="2" aria-label="Sectie 3: Energiemix"></a>
+    <a href="#section-weather" class="dot" data-section="3" aria-label="Sectie 4: Weer"></a>
+    <a href="#section-demand" class="dot" data-section="4" aria-label="Sectie 5: Vraag"></a>
+    <a href="#section-july" class="dot" data-section="5" aria-label="Sectie 6: Juli Vergelijking"></a>
+    <a href="#section-september" class="dot" data-section="6" aria-label="Sectie 7: September Vergelijking"></a>
+    <a href="#section-model" class="dot" data-section="7" aria-label="Sectie 8: Model"></a>
+    <a href="#section-analysis" class="dot" data-section="8" aria-label="Sectie 9: Analyse"></a>
+    <a href="#section-research" class="dot" data-section="9" aria-label="Sectie 10: Onderzoek"></a>
+  </nav>
+
+  <main class="scroll-container">
+    <!-- Section 1: Frequency -->
+    <section id="section-frequency" class="section section-frequency">
+      <div class="section-content">
+        <h1>Negatieve Elektriciteitsprijzen in Nederland</h1>
+        <p class="intro">
+          Negatieve elektriciteitsprijzen zijn momenten waarop producenten moeten <strong>betalen</strong> om hun stroom
+          kwijt te kunnen. Dit fenomeen komt steeds vaker voor door de snelle groei van zonne- en windenergie.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-card">
+            <span class="stat-value" id="stat-total-hours">--</span>
+            <span class="stat-label">uren met negatieve prijzen</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-percentage">--</span>
+            <span class="stat-label">van alle uren</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-most-negative">--</span>
+            <span class="stat-label">laagste prijs (€/MWh)</span>
+          </div>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-container">
+            <h3>Negatieve prijzen per maand</h3>
+            <canvas id="chart-monthly"></canvas>
+          </div>
+          <div class="chart-container">
+            <h3>Trend per jaar</h3>
+            <canvas id="chart-yearly"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Causes -->
+    <section id="section-causes" class="section section-causes">
+      <div class="section-content">
+        <h2>Oorzaken van Negatieve Prijzen</h2>
+        <p class="intro">
+          Negatieve prijzen ontstaan door een combinatie van factoren in het elektriciteitssysteem.
+          Klik op een kaart voor meer informatie.
+        </p>
+
+        <div class="reasons-grid">
+          <div class="reason-card" data-reason="solar">
+            <div class="reason-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="4"/>
+                <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+              </svg>
+            </div>
+            <h3>Hoge productie hernieuwbare energie</h3>
+            <p class="reason-preview">Vooral bij zonnig weer overdag...</p>
+            <div class="reason-detail">
+              <p>Wanneer de zon schijnt en het waait, produceren zonnepanelen en windmolens enorme hoeveelheden elektriciteit.
+              Op sommige momenten is de productie groter dan de vraag, wat leidt tot een overschot op de markt.</p>
+            </div>
+          </div>
+
+          <div class="reason-card" data-reason="demand">
+            <div class="reason-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 3v18h18"/>
+                <path d="M18 17l-5-5-4 4-4-4"/>
+              </svg>
+            </div>
+            <h3>Lage elektriciteitsvraag</h3>
+            <p class="reason-preview">Weekends en feestdagen...</p>
+            <div class="reason-detail">
+              <p>Tijdens weekenden, feestdagen en 's nachts is de vraag naar elektriciteit lager. Als dit samenvalt
+              met hoge productie van hernieuwbare energie, ontstaat een overschot dat de prijzen drukt.</p>
+            </div>
+          </div>
+
+          <div class="reason-card" data-reason="storage">
+            <div class="reason-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="7" width="18" height="10" rx="2"/>
+                <path d="M7 7V5a2 2 0 012-2h6a2 2 0 012 2v2"/>
+                <line x1="7" y1="12" x2="17" y2="12"/>
+              </svg>
+            </div>
+            <h3>Beperkte opslagcapaciteit</h3>
+            <p class="reason-preview">Batterijen zijn nog schaars...</p>
+            <div class="reason-detail">
+              <p>Er is nog onvoldoende capaciteit om overtollige elektriciteit op te slaan. Grootschalige batterijopslag
+              groeit, maar kan het overschot nog niet volledig opvangen. Hierdoor moet stroom direct worden verbruikt of geëxporteerd.</p>
+            </div>
+          </div>
+
+          <div class="reason-card" data-reason="inflexible">
+            <div class="reason-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 21h18"/>
+                <path d="M5 21V7l8-4 8 4v14"/>
+                <path d="M9 21V12h6v9"/>
+              </svg>
+            </div>
+            <h3>Inflexibele conventionele centrales</h3>
+            <p class="reason-preview">Kern- en kolencentrales kunnen niet snel schakelen...</p>
+            <div class="reason-detail">
+              <p>Grote elektriciteitscentrales (kolen, gas, nucleair) kunnen niet snel aan- en uitgeschakeld worden.
+              Het kan 6-12 uur duren om een centrale op te starten. Daarom blijven ze soms draaien, zelfs bij negatieve prijzen.</p>
+            </div>
+          </div>
+
+          <div class="reason-card" data-reason="subsidies">
+            <div class="reason-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v12"/>
+                <path d="M15 9.5a3 3 0 01-6 0"/>
+                <path d="M9 14.5a3 3 0 006 0"/>
+              </svg>
+            </div>
+            <h3>Subsidies voor hernieuwbare energie</h3>
+            <p class="reason-preview">Producenten krijgen gegarandeerde vergoeding...</p>
+            <div class="reason-detail">
+              <p>Veel wind- en zonneparken ontvangen subsidies die een vaste vergoeding per MWh garanderen,
+              ongeacht de marktprijs. Hierdoor is het voor hen rendabel om te blijven produceren, zelfs bij negatieve prijzen.</p>
+            </div>
+          </div>
+
+          <div class="reason-card" data-reason="congestion">
+            <div class="reason-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3"/>
+                <circle cx="4" cy="12" r="2"/>
+                <circle cx="20" cy="12" r="2"/>
+                <circle cx="12" cy="4" r="2"/>
+                <circle cx="12" cy="20" r="2"/>
+                <line x1="6" y1="12" x2="9" y2="12"/>
+                <line x1="15" y1="12" x2="18" y2="12"/>
+                <line x1="12" y1="6" x2="12" y2="9"/>
+                <line x1="12" y1="15" x2="12" y2="18"/>
+              </svg>
+            </div>
+            <h3>Netwerkcongestie</h3>
+            <p class="reason-preview">Het stroomnet kan niet alles aan...</p>
+            <div class="reason-detail">
+              <p>Het elektriciteitsnet heeft beperkte transportcapaciteit. Als er in een regio veel wordt opgewekt
+              maar de stroom niet kan worden getransporteerd naar gebieden met vraag, ontstaat lokaal een overschot.</p>
+            </div>
+          </div>
+
+          <div class="reason-card" data-reason="mustrun">
+            <div class="reason-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2"/>
+                <path d="M7 11V7a5 5 0 0110 0v4"/>
+              </svg>
+            </div>
+            <h3>Must-run verplichtingen</h3>
+            <p class="reason-preview">Sommige centrales moeten draaien...</p>
+            <div class="reason-detail">
+              <p>Bepaalde centrales hebben contractuele of technische verplichtingen om te blijven draaien,
+              bijvoorbeeld voor warmtelevering aan huishoudens (warmtekoppeling) of voor netstabiliteit.</p>
+            </div>
+          </div>
+
+          <div class="reason-card" data-reason="crossborder">
+            <div class="reason-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20"/>
+                <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+              </svg>
+            </div>
+            <h3>Grensoverschrijdende effecten</h3>
+            <p class="reason-preview">Verbonden met Duitsland en België...</p>
+            <div class="reason-detail">
+              <p>Nederland is verbonden met het Europese stroomnet. Als buurlanden zoals Duitsland veel goedkope
+              of negatief geprijsde stroom produceren, beïnvloedt dit ook de Nederlandse markt via import.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Energy Mix -->
+    <section id="section-energy-mix" class="section section-energy-mix">
+      <div class="section-content">
+        <h2>Hernieuwbare Energie en Negatieve Prijzen</h2>
+        <p class="intro">
+          Naarmate het aandeel hernieuwbare energie (zon en wind) groeit, neemt ook het aantal uren met negatieve prijzen toe.
+          Deze sectie toont het verband tussen beide.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-card stat-renewable">
+            <span class="stat-value" id="stat-renewable-share">--</span>
+            <span class="stat-label">gemiddeld aandeel hernieuwbaar</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-correlation">--</span>
+            <span class="stat-label">correlatie prijs ↔ hernieuwbaar</span>
+          </div>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-container chart-wide">
+            <h3>Aandeel hernieuwbaar vs. negatieve prijzen per jaar</h3>
+            <p class="chart-subtitle">Twee assen: links = aandeel hernieuwbaar (%), rechts = negatieve uren</p>
+            <canvas id="chart-yearly-renewable"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Weather -->
+    <section id="section-weather" class="section section-weather">
+      <div class="section-content">
+        <h2>Het Effect van Weer op Negatieve Prijzen</h2>
+        <p class="intro">
+          Weer bepaalt hoeveel zonne- en windenergie wordt opgewekt. Meer zon en wind betekent meer productie,
+          en daarmee een grotere kans op negatieve prijzen.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-card stat-solar">
+            <span class="stat-value" id="stat-corr-solar">--</span>
+            <span class="stat-label">correlatie straling ↔ zonproductie</span>
+          </div>
+          <div class="stat-card stat-wind">
+            <span class="stat-value" id="stat-corr-wind">--</span>
+            <span class="stat-label">correlatie windsnelheid ↔ windproductie</span>
+          </div>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-container">
+            <h3>Kans op negatieve prijs per stralingsniveau</h3>
+            <canvas id="chart-radiation-buckets"></canvas>
+          </div>
+          <div class="chart-container">
+            <h3>Kans op negatieve prijs per windsnelheid</h3>
+            <canvas id="chart-wind-buckets"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Demand -->
+    <section id="section-demand" class="section section-demand">
+      <div class="section-content">
+        <h2>Lage Vraag en Negatieve Prijzen</h2>
+        <p class="intro">
+          Negatieve prijzen komen vaker voor in periodes met lage elektriciteitsvraag: weekenden, feestdagen en 's nachts.
+          De kans op negatieve prijzen is in het weekend 3,5x groter dan doordeweeks.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-card">
+            <span class="stat-value" id="stat-weekend-factor">--</span>
+            <span class="stat-label">x meer kans in weekend</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-sunday-prob">--</span>
+            <span class="stat-label">kans op negatief (zondag)</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-holiday-prob">--</span>
+            <span class="stat-label">kans op negatief (feestdag)</span>
+          </div>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-container">
+            <h3>Negatieve prijzen per dag van de week</h3>
+            <p class="chart-subtitle">Kans op negatieve prijs (%)</p>
+            <canvas id="chart-dayofweek"></canvas>
+          </div>
+          <div class="chart-container">
+            <h3>Uurprofiel: weekdag vs. weekend</h3>
+            <p class="chart-subtitle">Kans op negatieve prijs per uur (%)</p>
+            <canvas id="chart-hourly-demand"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: July Comparison -->
+    <section id="section-july" class="section section-july">
+      <div class="section-content">
+        <h2>Case Study: Juli 2024 vs. Juli 2025</h2>
+        <p class="intro">
+          Juli 2024 had opvallend veel negatieve prijzen, terwijl juli 2025 nauwelijks negatieve uren kende.
+          Wat verklaart dit grote verschil? De analyse wijst naar drie factoren: hogere vraag, minder wind, en meer gascentrales.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-card stat-negative">
+            <span class="stat-value" id="stat-neg-2024">--</span>
+            <span class="stat-label">negatieve uren juli 2024</span>
+          </div>
+          <div class="stat-card stat-positive">
+            <span class="stat-value" id="stat-neg-2025">--</span>
+            <span class="stat-label">negatieve uren juli 2025</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-neg-ratio">--</span>
+            <span class="stat-label">meer in 2024</span>
+          </div>
+        </div>
+
+        <div class="explanation-box">
+          <h3>Waarom zo'n groot verschil?</h3>
+          <ul>
+            <li><strong>+15% hogere vraag in 2025:</strong> De totale elektriciteitsproductie (proxy voor vraag) was 15% hoger in juli 2025, mogelijk door airconditioning tijdens de hittegolf, waardoor overschotten sneller werden geabsorbeerd.</li>
+            <li><strong>-17% minder windenergie in 2025:</strong> Juli 2025 was minder winderig, wat leidde tot minder hernieuwbare productie en dus minder overschotten.</li>
+            <li><strong>+24% meer gascentrales in 2025:</strong> Om aan de hogere vraag te voldoen draaiden gascentrales harder, wat de markt strakker hield.</li>
+          </ul>
+        </div>
+
+        <div class="explanation-box highlight-box">
+          <h3>Opvallend: zonne-energie speelde géén rol</h3>
+          <p>
+            KNMI-weerdata toont dat juli 2025 zelfs <strong>zonniger</strong> was dan juli 2024:
+            de cumulatieve globale straling was 7% hoger (60.591 vs 56.707 J/cm²) en er waren
+            7% meer zonne-uren (235 vs 219 uur). Toch waren er 6x minder negatieve prijzen.
+            Dit bewijst dat het verschil volledig wordt verklaard door vraag, wind en gasproductie — niet door de zon.
+          </p>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-container chart-wide">
+            <h3>Belangrijkste verschillen</h3>
+            <p class="chart-subtitle">Gemiddeld vermogen in MW</p>
+            <canvas id="chart-factors-july"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: September Comparison -->
+    <section id="section-september" class="section section-september">
+      <div class="section-content">
+        <h2>Case Study: September 2024 vs. September 2025</h2>
+        <p class="intro">
+          September 2025 had juist <strong>meer</strong> negatieve prijzen dan september 2024.
+          Dit toont aan dat wind een nog grotere rol speelt dan vraag.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-card stat-positive">
+            <span class="stat-value" id="stat-sep-neg-2024">--</span>
+            <span class="stat-label">negatieve uren september 2024</span>
+          </div>
+          <div class="stat-card stat-negative">
+            <span class="stat-value" id="stat-sep-neg-2025">--</span>
+            <span class="stat-label">negatieve uren september 2025</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-sep-neg-ratio">--</span>
+            <span class="stat-label">meer in 2025</span>
+          </div>
+        </div>
+
+        <div class="explanation-box">
+          <h3>Waarom meer negatieve prijzen in september 2025?</h3>
+          <ul>
+            <li><strong>+26% meer windenergie in 2025:</strong> September 2025 was aanzienlijk winderniger (windsnelheid +19%), wat leidde tot veel meer windproductie en dus meer overschotten.</li>
+            <li><strong>+14% hogere vraag in 2025:</strong> Ondanks hogere vraag was dit niet genoeg om het extra windaanbod te absorberen.</li>
+            <li><strong>-5% minder gascentrales in 2025:</strong> Door de hoge windproductie draaiden gascentrales minder, wat de markt niet kon stabiliseren.</li>
+          </ul>
+        </div>
+
+        <div class="explanation-box highlight-box-wind">
+          <h3>Conclusie: wind is de dominante factor</h3>
+          <p>
+            Deze vergelijking toont het tegenovergestelde van juli: ondanks hogere vraag (+14%) waren er
+            bijna <strong>2x zoveel negatieve uren</strong> in september 2025. De oorzaak? Wind.
+            De windproductie steeg met 26%, en dat overschot kon niet worden geabsorbeerd.
+            Wind blijkt een nog sterkere voorspeller van negatieve prijzen dan vraag.
+          </p>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-container chart-wide">
+            <h3>Belangrijkste verschillen</h3>
+            <p class="chart-subtitle">Gemiddeld vermogen in MW</p>
+            <canvas id="chart-factors-september"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Model -->
+    <section id="section-model" class="section section-model">
+      <div class="section-content">
+        <h2>Voorspelmodel: Negatieve Prijzen</h2>
+        <p class="intro">
+          Kunnen we negatieve prijzen voorspellen op basis van weer en kalender?
+          We trainden een model op 2024 + eerste helft 2025, en testten op juli 2025 - januari 2026.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-card">
+            <span class="stat-value" id="stat-model-accuracy">--</span>
+            <span class="stat-label">nauwkeurigheid</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-model-precision">--</span>
+            <span class="stat-label">precisie</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-model-recall">--</span>
+            <span class="stat-label">recall</span>
+          </div>
+        </div>
+
+        <div class="explanation-box">
+          <h3>Modeldetails</h3>
+          <ul>
+            <li><strong>Type:</strong> Gradient Boosting Classifier (per uur)</li>
+            <li><strong>Trainingsperiode:</strong> januari 2024 - juni 2025 (13.105 uren)</li>
+            <li><strong>Testperiode:</strong> juli 2025 - januari 2026 (5.135 uren)</li>
+            <li><strong>Features:</strong> zonnestraling, windsnelheid, temperatuur, uur, weekend, feestdag, maand</li>
+          </ul>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-container">
+            <h3>Belang van features</h3>
+            <p class="chart-subtitle">Welke variabelen voorspellen negatieve prijzen?</p>
+            <canvas id="chart-feature-importance"></canvas>
+          </div>
+          <div class="chart-container">
+            <h3>Voorspelling vs. werkelijkheid per maand</h3>
+            <p class="chart-subtitle">Totaal aantal negatieve uren</p>
+            <canvas id="chart-monthly-model"></canvas>
+          </div>
+        </div>
+
+        <div class="explanation-box highlight-box">
+          <h3>Belangrijkste inzichten</h3>
+          <p>
+            <strong>Zonnestraling</strong> is veruit de belangrijkste voorspeller (47%), gevolgd door
+            temperatuur (13%) en weekend (13%). Het model voorspelde juli 2025 verkeerd: het verwachtte
+            65 negatieve uren, maar er waren er slechts 12.
+          </p>
+        </div>
+
+        <div class="explanation-box highlight-box-warning">
+          <h3>Probleem: Distribution Shift</h3>
+          <p>
+            We probeerden een "hittegolf-feature" (temperatuur >25°C) toe te voegen, maar dit hielp niet.
+            De reden: <strong>de relatie tussen hitte en negatieve prijzen is veranderd</strong>.
+          </p>
+          <ul>
+            <li>In de trainingsdata (2024): <strong>29%</strong> van de hete uren had negatieve prijzen</li>
+            <li>In de testdata (jul-jan 2025/26): slechts <strong>5%</strong> van de hete uren had negatieve prijzen</li>
+          </ul>
+          <p>
+            Dit is een "distribution shift": het patroon in 2024 (heet = zonnig = meer negatief) veranderde
+            in 2025 (heet = meer airco = hogere vraag = minder negatief). Zonder vraagdata kan het model
+            dit niet leren.
+          </p>
+        </div>
+
+        <div class="explanation-box highlight-box-structural">
+          <h3>Ontbrekende variabelen: Structurele veranderingen</h3>
+          <p>
+            Ons model gebruikt alleen weer- en kalenderdata. Maar de elektriciteitsvraag wordt ook bepaald door
+            <strong>structurele veranderingen</strong> in de economie die niet in onze data zitten:
+          </p>
+          <ul>
+            <li><strong>Airco-penetratie:</strong> Het aantal huishoudens met airconditioning groeit snel in Nederland. Dit verhoogt de vraag tijdens hete dagen — precies wanneer zonnepanelen het meeste produceren.</li>
+            <li><strong>Datacentercapaciteit:</strong> Nederland heeft veel datacenters (Google, Microsoft, Meta). Deze capaciteit groeit ~15% per jaar en zorgt voor constante basislast.</li>
+            <li><strong>EV-adoptie:</strong> Het aantal elektrische auto's neemt toe. Thuisladen (vaak 's avonds/nachts) verandert het vraagprofiel.</li>
+            <li><strong>Warmtepompen:</strong> De energietransitie zorgt voor meer warmtepompen, wat de wintervraag verhoogt maar ook flexibiliteit biedt.</li>
+            <li><strong>Zonnepanelen achter de meter:</strong> ENTSO-E rapporteert alleen grootschalige zonne-energie (~95 MW). De ~24 GW aan particuliere panelen is onzichtbaar, maar verlaagt de netto-vraag.</li>
+          </ul>
+          <p>
+            Deze factoren verklaren waarom de relatie tussen weer en negatieve prijzen verandert over tijd.
+            Een beter voorspelmodel zou deze structurele data moeten bevatten.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9: Research -->
+    <section id="section-research" class="section section-research">
+      <div class="section-content">
+        <h2>Onderzoek</h2>
+        <p class="intro">
+          Wetenschappelijk onderzoek naar negatieve elektriciteitsprijzen in Europa.
+        </p>
+
+        <div class="research-grid">
+          <article class="research-card">
+            <div class="research-header">
+              <span class="research-year">2024</span>
+              <h3>Understanding ultra-low and negative power prices</h3>
+              <span class="research-source">Eurelectric</span>
+            </div>
+            <div class="research-content">
+              <p class="research-finding">
+                In 2024 waren er <strong>1031 uren</strong> met negatieve prijzen in Europa,
+                een stijging van 25% ten opzichte van 821 uren in 2023.
+              </p>
+              <ul class="research-points">
+                <li>Nederland behoort tot de landen met de meeste negatieve prijzen</li>
+                <li>Meeste negatieve prijzen vallen in de middaguren (11:00-15:00)</li>
+                <li>Zondag heeft 3x meer negatieve uren dan woensdag</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <div class="research-header">
+              <span class="research-year">2014</span>
+              <h3>Negative Electricity Prices: Causes and Effects</h3>
+              <span class="research-source">Agora Energiewende</span>
+            </div>
+            <div class="research-content">
+              <p class="research-finding">
+                Dit baanbrekende rapport voorspelde al in 2014 dat negatieve prijzen
+                <strong>1000+ uur per jaar</strong> zouden bereiken rond 2022 - wat uitgekomen is.
+              </p>
+              <ul class="research-points">
+                <li>Negatieve prijzen worden veroorzaakt door inflexibiliteit, niet door overschot aan hernieuwbare energie</li>
+                <li>Conventionele centrales zijn de hoofdoorzaak</li>
+                <li>Markthervorming is nodig om flexibiliteit te stimuleren</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <div class="research-header">
+              <span class="research-year">2025</span>
+              <h3>Ever More Frequent Negative Prices</h3>
+              <span class="research-source">Pavlík et al.</span>
+            </div>
+            <div class="research-content">
+              <p class="research-finding">
+                Duitsland had in 2024 <strong>459 uren</strong> met negatieve prijzen.
+                De "capture rate" (werkelijke opbrengst vs. gemiddelde prijs) voor zonne-energie daalt.
+              </p>
+              <ul class="research-points">
+                <li>Capture rate voor zon daalde van 97% naar 82% in 5 jaar</li>
+                <li>Batterijopslag wordt steeds belangrijker</li>
+                <li>Flexibele vraag kan helpen om prijzen te stabiliseren</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <div class="research-header">
+              <span class="research-year">2023</span>
+              <h3>Negatieve prijzen in Europa: Trends en analyse</h3>
+              <span class="research-source">Synertics</span>
+            </div>
+            <div class="research-content">
+              <p class="research-finding">
+                Nederland leidde Europa met <strong>295 gevallen</strong> van negatieve prijzen
+                tussen juni 2022 en juni 2023.
+              </p>
+              <ul class="research-points">
+                <li>België en Duitsland volgen met respectievelijk 245 en 231 gevallen</li>
+                <li>Trend zet door met verdere groei van zonne-energie</li>
+                <li>Interconnectie met buurlanden speelt grote rol</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <footer class="section-footer">
+          <p>
+            Data: ENTSO-E Transparency Platform |
+            Periode: <span id="data-period">--</span>
+          </p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>

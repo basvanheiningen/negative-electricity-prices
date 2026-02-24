@@ -1,0 +1,1926 @@
+{
+  "monthly": [
+    {
+      "month": "2019-12",
+      "count": 0
+    },
+    {
+      "month": "2020-01",
+      "count": 0
+    },
+    {
+      "month": "2020-02",
+      "count": 2
+    },
+    {
+      "month": "2020-03",
+      "count": 13
+    },
+    {
+      "month": "2020-04",
+      "count": 27
+    },
+    {
+      "month": "2020-05",
+      "count": 21
+    },
+    {
+      "month": "2020-06",
+      "count": 4
+    },
+    {
+      "month": "2020-07",
+      "count": 18
+    },
+    {
+      "month": "2020-08",
+      "count": 0
+    },
+    {
+      "month": "2020-09",
+      "count": 4
+    },
+    {
+      "month": "2020-10",
+      "count": 3
+    },
+    {
+      "month": "2020-11",
+      "count": 5
+    },
+    {
+      "month": "2020-12",
+      "count": 0
+    },
+    {
+      "month": "2021-01",
+      "count": 0
+    },
+    {
+      "month": "2021-02",
+      "count": 3
+    },
+    {
+      "month": "2021-03",
+      "count": 14
+    },
+    {
+      "month": "2021-04",
+      "count": 7
+    },
+    {
+      "month": "2021-05",
+      "count": 21
+    },
+    {
+      "month": "2021-06",
+      "count": 6
+    },
+    {
+      "month": "2021-07",
+      "count": 5
+    },
+    {
+      "month": "2021-08",
+      "count": 9
+    },
+    {
+      "month": "2021-09",
+      "count": 0
+    },
+    {
+      "month": "2021-10",
+      "count": 5
+    },
+    {
+      "month": "2021-11",
+      "count": 0
+    },
+    {
+      "month": "2021-12",
+      "count": 0
+    },
+    {
+      "month": "2022-01",
+      "count": 4
+    },
+    {
+      "month": "2022-02",
+      "count": 0
+    },
+    {
+      "month": "2022-03",
+      "count": 8
+    },
+    {
+      "month": "2022-04",
+      "count": 17
+    },
+    {
+      "month": "2022-05",
+      "count": 19
+    },
+    {
+      "month": "2022-06",
+      "count": 12
+    },
+    {
+      "month": "2022-07",
+      "count": 9
+    },
+    {
+      "month": "2022-08",
+      "count": 4
+    },
+    {
+      "month": "2022-09",
+      "count": 0
+    },
+    {
+      "month": "2022-10",
+      "count": 2
+    },
+    {
+      "month": "2022-11",
+      "count": 0
+    },
+    {
+      "month": "2022-12",
+      "count": 11
+    },
+    {
+      "month": "2023-03",
+      "count": 20
+    },
+    {
+      "month": "2023-04",
+      "count": 27
+    },
+    {
+      "month": "2023-05",
+      "count": 49
+    },
+    {
+      "month": "2023-06",
+      "count": 22
+    },
+    {
+      "month": "2023-07",
+      "count": 65
+    },
+    {
+      "month": "2023-08",
+      "count": 20
+    },
+    {
+      "month": "2023-09",
+      "count": 23
+    },
+    {
+      "month": "2023-10",
+      "count": 37
+    },
+    {
+      "month": "2023-11",
+      "count": 0
+    },
+    {
+      "month": "2023-12",
+      "count": 44
+    },
+    {
+      "month": "2024-01",
+      "count": 13
+    },
+    {
+      "month": "2024-02",
+      "count": 0
+    },
+    {
+      "month": "2024-03",
+      "count": 17
+    },
+    {
+      "month": "2024-04",
+      "count": 62
+    },
+    {
+      "month": "2024-05",
+      "count": 74
+    },
+    {
+      "month": "2024-06",
+      "count": 67
+    },
+    {
+      "month": "2024-07",
+      "count": 81
+    },
+    {
+      "month": "2024-08",
+      "count": 80
+    },
+    {
+      "month": "2024-09",
+      "count": 33
+    },
+    {
+      "month": "2024-10",
+      "count": 18
+    },
+    {
+      "month": "2024-11",
+      "count": 9
+    },
+    {
+      "month": "2024-12",
+      "count": 4
+    },
+    {
+      "month": "2025-01",
+      "count": 0
+    },
+    {
+      "month": "2025-02",
+      "count": 0
+    },
+    {
+      "month": "2025-03",
+      "count": 52
+    },
+    {
+      "month": "2025-04",
+      "count": 84
+    },
+    {
+      "month": "2025-05",
+      "count": 145
+    },
+    {
+      "month": "2025-06",
+      "count": 127
+    },
+    {
+      "month": "2025-07",
+      "count": 12
+    },
+    {
+      "month": "2025-08",
+      "count": 57
+    },
+    {
+      "month": "2025-09",
+      "count": 61
+    },
+    {
+      "month": "2025-10",
+      "count": 46
+    },
+    {
+      "month": "2025-11",
+      "count": 0
+    },
+    {
+      "month": "2025-12",
+      "count": 0
+    },
+    {
+      "month": "2026-01",
+      "count": 0
+    }
+  ],
+  "monthly_comparison": {
+    "years": [
+      2024,
+      2025,
+      2026
+    ],
+    "data": [
+      {
+        "year": 2024,
+        "month": 1,
+        "count": 13
+      },
+      {
+        "year": 2024,
+        "month": 2,
+        "count": 0
+      },
+      {
+        "year": 2024,
+        "month": 3,
+        "count": 17
+      },
+      {
+        "year": 2024,
+        "month": 4,
+        "count": 62
+      },
+      {
+        "year": 2024,
+        "month": 5,
+        "count": 74
+      },
+      {
+        "year": 2024,
+        "month": 6,
+        "count": 67
+      },
+      {
+        "year": 2024,
+        "month": 7,
+        "count": 81
+      },
+      {
+        "year": 2024,
+        "month": 8,
+        "count": 80
+      },
+      {
+        "year": 2024,
+        "month": 9,
+        "count": 33
+      },
+      {
+        "year": 2024,
+        "month": 10,
+        "count": 18
+      },
+      {
+        "year": 2024,
+        "month": 11,
+        "count": 9
+      },
+      {
+        "year": 2024,
+        "month": 12,
+        "count": 4
+      },
+      {
+        "year": 2025,
+        "month": 1,
+        "count": 0
+      },
+      {
+        "year": 2025,
+        "month": 2,
+        "count": 0
+      },
+      {
+        "year": 2025,
+        "month": 3,
+        "count": 52
+      },
+      {
+        "year": 2025,
+        "month": 4,
+        "count": 84
+      },
+      {
+        "year": 2025,
+        "month": 5,
+        "count": 145
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "count": 127
+      },
+      {
+        "year": 2025,
+        "month": 7,
+        "count": 12
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "count": 57
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "count": 61
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "count": 46
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "count": 0
+      },
+      {
+        "year": 2025,
+        "month": 12,
+        "count": 0
+      },
+      {
+        "year": 2026,
+        "month": 1,
+        "count": 0
+      }
+    ]
+  },
+  "yearly": [
+    {
+      "year": 2020,
+      "count": 97,
+      "extrapolated": false
+    },
+    {
+      "year": 2021,
+      "count": 70,
+      "extrapolated": false
+    },
+    {
+      "year": 2022,
+      "count": 86,
+      "extrapolated": false
+    },
+    {
+      "year": 2023,
+      "count": 307,
+      "extrapolated": false
+    },
+    {
+      "year": 2024,
+      "count": 458,
+      "extrapolated": false
+    },
+    {
+      "year": 2025,
+      "count": 584,
+      "extrapolated": false
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "extrapolated": true,
+      "extrapolated_count": 649,
+      "coverage": 8.2
+    }
+  ],
+  "heatmap": [
+    {
+      "hour": 0,
+      "month": 1,
+      "frequency": 1.08
+    },
+    {
+      "hour": 0,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 0,
+      "month": 3,
+      "frequency": 0.0
+    },
+    {
+      "hour": 0,
+      "month": 4,
+      "frequency": 0.56
+    },
+    {
+      "hour": 0,
+      "month": 5,
+      "frequency": 0.0
+    },
+    {
+      "hour": 0,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 0,
+      "month": 7,
+      "frequency": 0.54
+    },
+    {
+      "hour": 0,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 0,
+      "month": 9,
+      "frequency": 2.78
+    },
+    {
+      "hour": 0,
+      "month": 10,
+      "frequency": 4.84
+    },
+    {
+      "hour": 0,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 0,
+      "month": 12,
+      "frequency": 3.76
+    },
+    {
+      "hour": 1,
+      "month": 1,
+      "frequency": 1.08
+    },
+    {
+      "hour": 1,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 1,
+      "month": 3,
+      "frequency": 0.54
+    },
+    {
+      "hour": 1,
+      "month": 4,
+      "frequency": 0.0
+    },
+    {
+      "hour": 1,
+      "month": 5,
+      "frequency": 1.08
+    },
+    {
+      "hour": 1,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 1,
+      "month": 7,
+      "frequency": 1.08
+    },
+    {
+      "hour": 1,
+      "month": 8,
+      "frequency": 0.54
+    },
+    {
+      "hour": 1,
+      "month": 9,
+      "frequency": 2.78
+    },
+    {
+      "hour": 1,
+      "month": 10,
+      "frequency": 4.84
+    },
+    {
+      "hour": 1,
+      "month": 11,
+      "frequency": 1.11
+    },
+    {
+      "hour": 1,
+      "month": 12,
+      "frequency": 3.76
+    },
+    {
+      "hour": 2,
+      "month": 1,
+      "frequency": 2.16
+    },
+    {
+      "hour": 2,
+      "month": 2,
+      "frequency": 0.7
+    },
+    {
+      "hour": 2,
+      "month": 3,
+      "frequency": 0.54
+    },
+    {
+      "hour": 2,
+      "month": 4,
+      "frequency": 0.0
+    },
+    {
+      "hour": 2,
+      "month": 5,
+      "frequency": 1.08
+    },
+    {
+      "hour": 2,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 2,
+      "month": 7,
+      "frequency": 2.15
+    },
+    {
+      "hour": 2,
+      "month": 8,
+      "frequency": 0.54
+    },
+    {
+      "hour": 2,
+      "month": 9,
+      "frequency": 2.78
+    },
+    {
+      "hour": 2,
+      "month": 10,
+      "frequency": 5.38
+    },
+    {
+      "hour": 2,
+      "month": 11,
+      "frequency": 2.22
+    },
+    {
+      "hour": 2,
+      "month": 12,
+      "frequency": 4.84
+    },
+    {
+      "hour": 3,
+      "month": 1,
+      "frequency": 2.16
+    },
+    {
+      "hour": 3,
+      "month": 2,
+      "frequency": 1.41
+    },
+    {
+      "hour": 3,
+      "month": 3,
+      "frequency": 0.54
+    },
+    {
+      "hour": 3,
+      "month": 4,
+      "frequency": 0.56
+    },
+    {
+      "hour": 3,
+      "month": 5,
+      "frequency": 1.08
+    },
+    {
+      "hour": 3,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 3,
+      "month": 7,
+      "frequency": 1.61
+    },
+    {
+      "hour": 3,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 3,
+      "month": 9,
+      "frequency": 1.67
+    },
+    {
+      "hour": 3,
+      "month": 10,
+      "frequency": 4.84
+    },
+    {
+      "hour": 3,
+      "month": 11,
+      "frequency": 2.22
+    },
+    {
+      "hour": 3,
+      "month": 12,
+      "frequency": 5.38
+    },
+    {
+      "hour": 4,
+      "month": 1,
+      "frequency": 1.08
+    },
+    {
+      "hour": 4,
+      "month": 2,
+      "frequency": 0.7
+    },
+    {
+      "hour": 4,
+      "month": 3,
+      "frequency": 0.54
+    },
+    {
+      "hour": 4,
+      "month": 4,
+      "frequency": 0.56
+    },
+    {
+      "hour": 4,
+      "month": 5,
+      "frequency": 0.54
+    },
+    {
+      "hour": 4,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 4,
+      "month": 7,
+      "frequency": 1.61
+    },
+    {
+      "hour": 4,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 4,
+      "month": 9,
+      "frequency": 0.0
+    },
+    {
+      "hour": 4,
+      "month": 10,
+      "frequency": 3.76
+    },
+    {
+      "hour": 4,
+      "month": 11,
+      "frequency": 1.11
+    },
+    {
+      "hour": 4,
+      "month": 12,
+      "frequency": 4.84
+    },
+    {
+      "hour": 5,
+      "month": 1,
+      "frequency": 0.54
+    },
+    {
+      "hour": 5,
+      "month": 2,
+      "frequency": 0.7
+    },
+    {
+      "hour": 5,
+      "month": 3,
+      "frequency": 1.08
+    },
+    {
+      "hour": 5,
+      "month": 4,
+      "frequency": 0.56
+    },
+    {
+      "hour": 5,
+      "month": 5,
+      "frequency": 0.54
+    },
+    {
+      "hour": 5,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 5,
+      "month": 7,
+      "frequency": 1.61
+    },
+    {
+      "hour": 5,
+      "month": 8,
+      "frequency": 0.54
+    },
+    {
+      "hour": 5,
+      "month": 9,
+      "frequency": 0.0
+    },
+    {
+      "hour": 5,
+      "month": 10,
+      "frequency": 1.61
+    },
+    {
+      "hour": 5,
+      "month": 11,
+      "frequency": 0.56
+    },
+    {
+      "hour": 5,
+      "month": 12,
+      "frequency": 3.76
+    },
+    {
+      "hour": 6,
+      "month": 1,
+      "frequency": 0.54
+    },
+    {
+      "hour": 6,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 6,
+      "month": 3,
+      "frequency": 0.54
+    },
+    {
+      "hour": 6,
+      "month": 4,
+      "frequency": 1.11
+    },
+    {
+      "hour": 6,
+      "month": 5,
+      "frequency": 0.54
+    },
+    {
+      "hour": 6,
+      "month": 6,
+      "frequency": 0.56
+    },
+    {
+      "hour": 6,
+      "month": 7,
+      "frequency": 2.15
+    },
+    {
+      "hour": 6,
+      "month": 8,
+      "frequency": 0.54
+    },
+    {
+      "hour": 6,
+      "month": 9,
+      "frequency": 0.0
+    },
+    {
+      "hour": 6,
+      "month": 10,
+      "frequency": 1.61
+    },
+    {
+      "hour": 6,
+      "month": 11,
+      "frequency": 0.56
+    },
+    {
+      "hour": 6,
+      "month": 12,
+      "frequency": 2.15
+    },
+    {
+      "hour": 7,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 7,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 7,
+      "month": 3,
+      "frequency": 0.54
+    },
+    {
+      "hour": 7,
+      "month": 4,
+      "frequency": 1.67
+    },
+    {
+      "hour": 7,
+      "month": 5,
+      "frequency": 2.69
+    },
+    {
+      "hour": 7,
+      "month": 6,
+      "frequency": 3.89
+    },
+    {
+      "hour": 7,
+      "month": 7,
+      "frequency": 2.69
+    },
+    {
+      "hour": 7,
+      "month": 8,
+      "frequency": 2.15
+    },
+    {
+      "hour": 7,
+      "month": 9,
+      "frequency": 0.56
+    },
+    {
+      "hour": 7,
+      "month": 10,
+      "frequency": 1.08
+    },
+    {
+      "hour": 7,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 7,
+      "month": 12,
+      "frequency": 0.54
+    },
+    {
+      "hour": 8,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 8,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 8,
+      "month": 3,
+      "frequency": 1.61
+    },
+    {
+      "hour": 8,
+      "month": 4,
+      "frequency": 6.11
+    },
+    {
+      "hour": 8,
+      "month": 5,
+      "frequency": 10.75
+    },
+    {
+      "hour": 8,
+      "month": 6,
+      "frequency": 6.67
+    },
+    {
+      "hour": 8,
+      "month": 7,
+      "frequency": 4.84
+    },
+    {
+      "hour": 8,
+      "month": 8,
+      "frequency": 8.06
+    },
+    {
+      "hour": 8,
+      "month": 9,
+      "frequency": 2.22
+    },
+    {
+      "hour": 8,
+      "month": 10,
+      "frequency": 1.08
+    },
+    {
+      "hour": 8,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 8,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 9,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 9,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 9,
+      "month": 3,
+      "frequency": 3.23
+    },
+    {
+      "hour": 9,
+      "month": 4,
+      "frequency": 11.67
+    },
+    {
+      "hour": 9,
+      "month": 5,
+      "frequency": 18.28
+    },
+    {
+      "hour": 9,
+      "month": 6,
+      "frequency": 14.44
+    },
+    {
+      "hour": 9,
+      "month": 7,
+      "frequency": 7.53
+    },
+    {
+      "hour": 9,
+      "month": 8,
+      "frequency": 8.6
+    },
+    {
+      "hour": 9,
+      "month": 9,
+      "frequency": 5.0
+    },
+    {
+      "hour": 9,
+      "month": 10,
+      "frequency": 3.23
+    },
+    {
+      "hour": 9,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 9,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 10,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 10,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 10,
+      "month": 3,
+      "frequency": 8.6
+    },
+    {
+      "hour": 10,
+      "month": 4,
+      "frequency": 16.11
+    },
+    {
+      "hour": 10,
+      "month": 5,
+      "frequency": 23.12
+    },
+    {
+      "hour": 10,
+      "month": 6,
+      "frequency": 19.44
+    },
+    {
+      "hour": 10,
+      "month": 7,
+      "frequency": 10.22
+    },
+    {
+      "hour": 10,
+      "month": 8,
+      "frequency": 10.22
+    },
+    {
+      "hour": 10,
+      "month": 9,
+      "frequency": 10.0
+    },
+    {
+      "hour": 10,
+      "month": 10,
+      "frequency": 3.76
+    },
+    {
+      "hour": 10,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 10,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 11,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 11,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 11,
+      "month": 3,
+      "frequency": 14.52
+    },
+    {
+      "hour": 11,
+      "month": 4,
+      "frequency": 21.67
+    },
+    {
+      "hour": 11,
+      "month": 5,
+      "frequency": 30.65
+    },
+    {
+      "hour": 11,
+      "month": 6,
+      "frequency": 23.33
+    },
+    {
+      "hour": 11,
+      "month": 7,
+      "frequency": 17.2
+    },
+    {
+      "hour": 11,
+      "month": 8,
+      "frequency": 16.67
+    },
+    {
+      "hour": 11,
+      "month": 9,
+      "frequency": 12.22
+    },
+    {
+      "hour": 11,
+      "month": 10,
+      "frequency": 5.38
+    },
+    {
+      "hour": 11,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 11,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 12,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 12,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 12,
+      "month": 3,
+      "frequency": 16.67
+    },
+    {
+      "hour": 12,
+      "month": 4,
+      "frequency": 24.44
+    },
+    {
+      "hour": 12,
+      "month": 5,
+      "frequency": 32.8
+    },
+    {
+      "hour": 12,
+      "month": 6,
+      "frequency": 23.89
+    },
+    {
+      "hour": 12,
+      "month": 7,
+      "frequency": 17.2
+    },
+    {
+      "hour": 12,
+      "month": 8,
+      "frequency": 15.59
+    },
+    {
+      "hour": 12,
+      "month": 9,
+      "frequency": 13.89
+    },
+    {
+      "hour": 12,
+      "month": 10,
+      "frequency": 5.38
+    },
+    {
+      "hour": 12,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 12,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 13,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 13,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 13,
+      "month": 3,
+      "frequency": 11.29
+    },
+    {
+      "hour": 13,
+      "month": 4,
+      "frequency": 23.33
+    },
+    {
+      "hour": 13,
+      "month": 5,
+      "frequency": 30.11
+    },
+    {
+      "hour": 13,
+      "month": 6,
+      "frequency": 20.56
+    },
+    {
+      "hour": 13,
+      "month": 7,
+      "frequency": 15.59
+    },
+    {
+      "hour": 13,
+      "month": 8,
+      "frequency": 14.52
+    },
+    {
+      "hour": 13,
+      "month": 9,
+      "frequency": 8.33
+    },
+    {
+      "hour": 13,
+      "month": 10,
+      "frequency": 2.15
+    },
+    {
+      "hour": 13,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 13,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 14,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 14,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 14,
+      "month": 3,
+      "frequency": 5.38
+    },
+    {
+      "hour": 14,
+      "month": 4,
+      "frequency": 13.89
+    },
+    {
+      "hour": 14,
+      "month": 5,
+      "frequency": 18.82
+    },
+    {
+      "hour": 14,
+      "month": 6,
+      "frequency": 15.0
+    },
+    {
+      "hour": 14,
+      "month": 7,
+      "frequency": 9.14
+    },
+    {
+      "hour": 14,
+      "month": 8,
+      "frequency": 8.6
+    },
+    {
+      "hour": 14,
+      "month": 9,
+      "frequency": 2.78
+    },
+    {
+      "hour": 14,
+      "month": 10,
+      "frequency": 1.08
+    },
+    {
+      "hour": 14,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 14,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 15,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 15,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 15,
+      "month": 3,
+      "frequency": 1.08
+    },
+    {
+      "hour": 15,
+      "month": 4,
+      "frequency": 2.22
+    },
+    {
+      "hour": 15,
+      "month": 5,
+      "frequency": 4.84
+    },
+    {
+      "hour": 15,
+      "month": 6,
+      "frequency": 3.89
+    },
+    {
+      "hour": 15,
+      "month": 7,
+      "frequency": 4.84
+    },
+    {
+      "hour": 15,
+      "month": 8,
+      "frequency": 4.84
+    },
+    {
+      "hour": 15,
+      "month": 9,
+      "frequency": 0.0
+    },
+    {
+      "hour": 15,
+      "month": 10,
+      "frequency": 0.54
+    },
+    {
+      "hour": 15,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 15,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 16,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 16,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 16,
+      "month": 3,
+      "frequency": 0.0
+    },
+    {
+      "hour": 16,
+      "month": 4,
+      "frequency": 0.0
+    },
+    {
+      "hour": 16,
+      "month": 5,
+      "frequency": 0.0
+    },
+    {
+      "hour": 16,
+      "month": 6,
+      "frequency": 0.56
+    },
+    {
+      "hour": 16,
+      "month": 7,
+      "frequency": 1.61
+    },
+    {
+      "hour": 16,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 16,
+      "month": 9,
+      "frequency": 0.0
+    },
+    {
+      "hour": 16,
+      "month": 10,
+      "frequency": 0.0
+    },
+    {
+      "hour": 16,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 16,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 3,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 4,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 5,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 7,
+      "frequency": 0.54
+    },
+    {
+      "hour": 17,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 9,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 10,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 17,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 3,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 4,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 5,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 7,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 9,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 10,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 18,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 3,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 4,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 5,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 7,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 9,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 10,
+      "frequency": 0.54
+    },
+    {
+      "hour": 19,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 19,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 3,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 4,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 5,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 7,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 9,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 10,
+      "frequency": 0.54
+    },
+    {
+      "hour": 20,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 20,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 3,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 4,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 5,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 7,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 9,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 10,
+      "frequency": 1.08
+    },
+    {
+      "hour": 21,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 21,
+      "month": 12,
+      "frequency": 0.0
+    },
+    {
+      "hour": 22,
+      "month": 1,
+      "frequency": 0.0
+    },
+    {
+      "hour": 22,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 22,
+      "month": 3,
+      "frequency": 0.0
+    },
+    {
+      "hour": 22,
+      "month": 4,
+      "frequency": 0.0
+    },
+    {
+      "hour": 22,
+      "month": 5,
+      "frequency": 0.0
+    },
+    {
+      "hour": 22,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 22,
+      "month": 7,
+      "frequency": 0.0
+    },
+    {
+      "hour": 22,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 22,
+      "month": 9,
+      "frequency": 0.56
+    },
+    {
+      "hour": 22,
+      "month": 10,
+      "frequency": 2.15
+    },
+    {
+      "hour": 22,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 22,
+      "month": 12,
+      "frequency": 0.54
+    },
+    {
+      "hour": 23,
+      "month": 1,
+      "frequency": 0.54
+    },
+    {
+      "hour": 23,
+      "month": 2,
+      "frequency": 0.0
+    },
+    {
+      "hour": 23,
+      "month": 3,
+      "frequency": 0.0
+    },
+    {
+      "hour": 23,
+      "month": 4,
+      "frequency": 0.0
+    },
+    {
+      "hour": 23,
+      "month": 5,
+      "frequency": 0.0
+    },
+    {
+      "hour": 23,
+      "month": 6,
+      "frequency": 0.0
+    },
+    {
+      "hour": 23,
+      "month": 7,
+      "frequency": 0.0
+    },
+    {
+      "hour": 23,
+      "month": 8,
+      "frequency": 0.0
+    },
+    {
+      "hour": 23,
+      "month": 9,
+      "frequency": 1.67
+    },
+    {
+      "hour": 23,
+      "month": 10,
+      "frequency": 4.84
+    },
+    {
+      "hour": 23,
+      "month": 11,
+      "frequency": 0.0
+    },
+    {
+      "hour": 23,
+      "month": 12,
+      "frequency": 2.14
+    }
+  ],
+  "statistics": {
+    "total_hours": 51912,
+    "negative_hours": 1602,
+    "percentage": 3.09,
+    "most_negative": {
+      "price": -500.0,
+      "datetime": "2023-07-02T11:00:00"
+    },
+    "price_distribution": {
+      "min": -500.0,
+      "max": -0.009999999999999995,
+      "mean": -17.90165574282147,
+      "median": -4.1
+    },
+    "date_range": {
+      "start": "2019-12-31T23:00:00",
+      "end": "2026-01-30T22:00:00"
+    }
+  }
+}

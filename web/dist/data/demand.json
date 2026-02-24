@@ -1,0 +1,710 @@
+{
+  "dayofweek": [
+    {
+      "day": "Maandag",
+      "day_num": 0,
+      "negative_hours": 167,
+      "total_hours": 7392,
+      "probability": 2.26,
+      "avg_price": 111.03,
+      "is_weekend": false
+    },
+    {
+      "day": "Dinsdag",
+      "day_num": 1,
+      "negative_hours": 114,
+      "total_hours": 7393,
+      "probability": 1.54,
+      "avg_price": 114.59,
+      "is_weekend": false
+    },
+    {
+      "day": "Woensdag",
+      "day_num": 2,
+      "negative_hours": 117,
+      "total_hours": 7440,
+      "probability": 1.57,
+      "avg_price": 114.86,
+      "is_weekend": false
+    },
+    {
+      "day": "Donderdag",
+      "day_num": 3,
+      "negative_hours": 126,
+      "total_hours": 7440,
+      "probability": 1.69,
+      "avg_price": 114.19,
+      "is_weekend": false
+    },
+    {
+      "day": "Vrijdag",
+      "day_num": 4,
+      "negative_hours": 139,
+      "total_hours": 7439,
+      "probability": 1.87,
+      "avg_price": 110.45,
+      "is_weekend": false
+    },
+    {
+      "day": "Zaterdag",
+      "day_num": 5,
+      "negative_hours": 351,
+      "total_hours": 7416,
+      "probability": 4.73,
+      "avg_price": 91.78,
+      "is_weekend": true
+    },
+    {
+      "day": "Zondag",
+      "day_num": 6,
+      "negative_hours": 588,
+      "total_hours": 7392,
+      "probability": 7.95,
+      "avg_price": 81.39,
+      "is_weekend": true
+    }
+  ],
+  "hourly_comparison": {
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "weekday": {
+      "negative_probability": [
+        0.93,
+        1.06,
+        1.26,
+        1.06,
+        0.46,
+        0.2,
+        0.0,
+        0.07,
+        1.26,
+        2.99,
+        4.45,
+        6.7,
+        7.43,
+        5.97,
+        2.92,
+        0.66,
+        0.07,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.07,
+        0.2,
+        0.66
+      ],
+      "avg_price": [
+        92.99,
+        89.88,
+        88.9,
+        93.87,
+        111.25,
+        130.39,
+        140.53,
+        134.79,
+        120.37,
+        107.44,
+        96.47,
+        89.08,
+        87.99,
+        94.09,
+        104.8,
+        123.69,
+        145.63,
+        159.21,
+        154.36,
+        136.77,
+        123.49,
+        112.47,
+        105.18,
+        99.29
+      ]
+    },
+    "weekend": {
+      "negative_probability": [
+        1.51,
+        2.18,
+        3.18,
+        3.18,
+        2.68,
+        2.51,
+        2.68,
+        4.36,
+        8.04,
+        12.9,
+        17.76,
+        23.28,
+        23.79,
+        20.1,
+        13.4,
+        4.36,
+        0.5,
+        0.17,
+        0.0,
+        0.17,
+        0.17,
+        0.17,
+        0.5,
+        1.17
+      ],
+      "avg_price": [
+        90.07,
+        85.87,
+        82.88,
+        82.52,
+        83.76,
+        86.93,
+        87.92,
+        84.26,
+        75.79,
+        65.2,
+        55.87,
+        47.18,
+        44.66,
+        52.22,
+        68.07,
+        89.93,
+        115.88,
+        130.73,
+        130.64,
+        122.56,
+        114.36,
+        106.09,
+        97.34,
+        90.85
+      ]
+    },
+    "holiday": {
+      "negative_probability": [
+        3.39,
+        3.39,
+        5.08,
+        6.78,
+        6.78,
+        5.08,
+        5.08,
+        3.39,
+        15.25,
+        16.95,
+        22.03,
+        33.9,
+        35.59,
+        35.59,
+        22.03,
+        8.47,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_price": [
+        72.99,
+        69.21,
+        65.77,
+        66.46,
+        69.58,
+        70.07,
+        66.14,
+        57.46,
+        50.31,
+        42.69,
+        34.1,
+        24.48,
+        19.29,
+        30.16,
+        43.43,
+        63.74,
+        90.78,
+        105.87,
+        109.24,
+        102.56,
+        95.23,
+        86.56,
+        80.1,
+        72.07
+      ]
+    }
+  },
+  "weekend_comparison": {
+    "weekday": {
+      "negative_hours": 663,
+      "total_hours": 37104,
+      "probability": 1.79,
+      "avg_price": 113.03
+    },
+    "weekend": {
+      "negative_hours": 939,
+      "total_hours": 14808,
+      "probability": 6.34,
+      "avg_price": 86.59
+    }
+  },
+  "holiday_stats": {
+    "holiday": {
+      "negative_hours": 135,
+      "total_hours": 1416,
+      "probability": 9.53,
+      "avg_price": 66.18
+    },
+    "non_holiday": {
+      "negative_hours": 1467,
+      "total_hours": 50496,
+      "probability": 2.91,
+      "avg_price": 106.59
+    }
+  },
+  "heatmap": [
+    {
+      "month": 1,
+      "dayofweek": 0,
+      "probability": 1.6
+    },
+    {
+      "month": 1,
+      "dayofweek": 1,
+      "probability": 0.32
+    },
+    {
+      "month": 1,
+      "dayofweek": 2,
+      "probability": 2.08
+    },
+    {
+      "month": 1,
+      "dayofweek": 3,
+      "probability": 0.0
+    },
+    {
+      "month": 1,
+      "dayofweek": 4,
+      "probability": 0.0
+    },
+    {
+      "month": 1,
+      "dayofweek": 5,
+      "probability": 0.0
+    },
+    {
+      "month": 1,
+      "dayofweek": 6,
+      "probability": 0.0
+    },
+    {
+      "month": 2,
+      "dayofweek": 0,
+      "probability": 0.0
+    },
+    {
+      "month": 2,
+      "dayofweek": 1,
+      "probability": 0.0
+    },
+    {
+      "month": 2,
+      "dayofweek": 2,
+      "probability": 0.0
+    },
+    {
+      "month": 2,
+      "dayofweek": 3,
+      "probability": 0.0
+    },
+    {
+      "month": 2,
+      "dayofweek": 4,
+      "probability": 0.0
+    },
+    {
+      "month": 2,
+      "dayofweek": 5,
+      "probability": 0.0
+    },
+    {
+      "month": 2,
+      "dayofweek": 6,
+      "probability": 0.0
+    },
+    {
+      "month": 3,
+      "dayofweek": 0,
+      "probability": 2.31
+    },
+    {
+      "month": 3,
+      "dayofweek": 1,
+      "probability": 2.08
+    },
+    {
+      "month": 3,
+      "dayofweek": 2,
+      "probability": 3.65
+    },
+    {
+      "month": 3,
+      "dayofweek": 3,
+      "probability": 1.04
+    },
+    {
+      "month": 3,
+      "dayofweek": 4,
+      "probability": 4.63
+    },
+    {
+      "month": 3,
+      "dayofweek": 5,
+      "probability": 7.5
+    },
+    {
+      "month": 3,
+      "dayofweek": 6,
+      "probability": 9.58
+    },
+    {
+      "month": 4,
+      "dayofweek": 0,
+      "probability": 3.7
+    },
+    {
+      "month": 4,
+      "dayofweek": 1,
+      "probability": 3.33
+    },
+    {
+      "month": 4,
+      "dayofweek": 2,
+      "probability": 6.02
+    },
+    {
+      "month": 4,
+      "dayofweek": 3,
+      "probability": 2.6
+    },
+    {
+      "month": 4,
+      "dayofweek": 4,
+      "probability": 8.85
+    },
+    {
+      "month": 4,
+      "dayofweek": 5,
+      "probability": 20.31
+    },
+    {
+      "month": 4,
+      "dayofweek": 6,
+      "probability": 29.17
+    },
+    {
+      "month": 5,
+      "dayofweek": 0,
+      "probability": 11.98
+    },
+    {
+      "month": 5,
+      "dayofweek": 1,
+      "probability": 8.33
+    },
+    {
+      "month": 5,
+      "dayofweek": 2,
+      "probability": 10.19
+    },
+    {
+      "month": 5,
+      "dayofweek": 3,
+      "probability": 15.0
+    },
+    {
+      "month": 5,
+      "dayofweek": 4,
+      "probability": 10.0
+    },
+    {
+      "month": 5,
+      "dayofweek": 5,
+      "probability": 18.98
+    },
+    {
+      "month": 5,
+      "dayofweek": 6,
+      "probability": 29.69
+    },
+    {
+      "month": 6,
+      "dayofweek": 0,
+      "probability": 6.94
+    },
+    {
+      "month": 6,
+      "dayofweek": 1,
+      "probability": 10.42
+    },
+    {
+      "month": 6,
+      "dayofweek": 2,
+      "probability": 4.17
+    },
+    {
+      "month": 6,
+      "dayofweek": 3,
+      "probability": 7.29
+    },
+    {
+      "month": 6,
+      "dayofweek": 4,
+      "probability": 9.9
+    },
+    {
+      "month": 6,
+      "dayofweek": 5,
+      "probability": 19.91
+    },
+    {
+      "month": 6,
+      "dayofweek": 6,
+      "probability": 31.25
+    },
+    {
+      "month": 7,
+      "dayofweek": 0,
+      "probability": 3.24
+    },
+    {
+      "month": 7,
+      "dayofweek": 1,
+      "probability": 3.75
+    },
+    {
+      "month": 7,
+      "dayofweek": 2,
+      "probability": 1.67
+    },
+    {
+      "month": 7,
+      "dayofweek": 3,
+      "probability": 4.17
+    },
+    {
+      "month": 7,
+      "dayofweek": 4,
+      "probability": 3.65
+    },
+    {
+      "month": 7,
+      "dayofweek": 5,
+      "probability": 14.06
+    },
+    {
+      "month": 7,
+      "dayofweek": 6,
+      "probability": 15.62
+    },
+    {
+      "month": 8,
+      "dayofweek": 0,
+      "probability": 1.04
+    },
+    {
+      "month": 8,
+      "dayofweek": 1,
+      "probability": 4.17
+    },
+    {
+      "month": 8,
+      "dayofweek": 2,
+      "probability": 8.85
+    },
+    {
+      "month": 8,
+      "dayofweek": 3,
+      "probability": 6.94
+    },
+    {
+      "month": 8,
+      "dayofweek": 4,
+      "probability": 7.08
+    },
+    {
+      "month": 8,
+      "dayofweek": 5,
+      "probability": 13.75
+    },
+    {
+      "month": 8,
+      "dayofweek": 6,
+      "probability": 20.83
+    },
+    {
+      "month": 9,
+      "dayofweek": 0,
+      "probability": 5.42
+    },
+    {
+      "month": 9,
+      "dayofweek": 1,
+      "probability": 6.48
+    },
+    {
+      "month": 9,
+      "dayofweek": 2,
+      "probability": 2.6
+    },
+    {
+      "month": 9,
+      "dayofweek": 3,
+      "probability": 6.25
+    },
+    {
+      "month": 9,
+      "dayofweek": 4,
+      "probability": 6.77
+    },
+    {
+      "month": 9,
+      "dayofweek": 5,
+      "probability": 6.77
+    },
+    {
+      "month": 9,
+      "dayofweek": 6,
+      "probability": 11.11
+    },
+    {
+      "month": 10,
+      "dayofweek": 0,
+      "probability": 2.6
+    },
+    {
+      "month": 10,
+      "dayofweek": 1,
+      "probability": 0.0
+    },
+    {
+      "month": 10,
+      "dayofweek": 2,
+      "probability": 0.0
+    },
+    {
+      "month": 10,
+      "dayofweek": 3,
+      "probability": 0.0
+    },
+    {
+      "month": 10,
+      "dayofweek": 4,
+      "probability": 1.39
+    },
+    {
+      "month": 10,
+      "dayofweek": 5,
+      "probability": 13.02
+    },
+    {
+      "month": 10,
+      "dayofweek": 6,
+      "probability": 16.15
+    },
+    {
+      "month": 11,
+      "dayofweek": 0,
+      "probability": 2.08
+    },
+    {
+      "month": 11,
+      "dayofweek": 1,
+      "probability": 0.0
+    },
+    {
+      "month": 11,
+      "dayofweek": 2,
+      "probability": 0.0
+    },
+    {
+      "month": 11,
+      "dayofweek": 3,
+      "probability": 0.0
+    },
+    {
+      "month": 11,
+      "dayofweek": 4,
+      "probability": 0.0
+    },
+    {
+      "month": 11,
+      "dayofweek": 5,
+      "probability": 0.0
+    },
+    {
+      "month": 11,
+      "dayofweek": 6,
+      "probability": 2.31
+    },
+    {
+      "month": 12,
+      "dayofweek": 0,
+      "probability": 0.0
+    },
+    {
+      "month": 12,
+      "dayofweek": 1,
+      "probability": 0.0
+    },
+    {
+      "month": 12,
+      "dayofweek": 2,
+      "probability": 0.0
+    },
+    {
+      "month": 12,
+      "dayofweek": 3,
+      "probability": 0.0
+    },
+    {
+      "month": 12,
+      "dayofweek": 4,
+      "probability": 0.0
+    },
+    {
+      "month": 12,
+      "dayofweek": 5,
+      "probability": 0.0
+    },
+    {
+      "month": 12,
+      "dayofweek": 6,
+      "probability": 1.85
+    }
+  ],
+  "statistics": {
+    "weekend_factor": 3.54
+  }
+}
