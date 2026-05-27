@@ -2,64 +2,92 @@
   "model_info": {
     "name": "Gradient Boosting (Uurlijks) \u2014 Update 2026-05",
     "type": "classification",
-    "train_period": "Jan 2024 \u2013 Okt 2025",
-    "test_period": "Nov 2025 \u2013 Mei 2026",
-    "train_hours": 16080,
-    "test_hours": 4944,
-    "train_negative_pct": 6.5,
-    "test_negative_pct": 3.6
+    "train_period": "Jan 2024 \u2013 Jun 2025",
+    "test_period": "Jul 2025 \u2013 Mei 2026",
+    "train_hours": 13128,
+    "test_hours": 7896,
+    "train_negative_pct": 6.6,
+    "test_negative_pct": 4.5
   },
   "metrics": {
-    "accuracy": 0.976,
-    "precision": 0.684,
-    "recall": 0.599,
-    "f1": 0.639
+    "accuracy": 0.957,
+    "precision": 0.516,
+    "recall": 0.462,
+    "f1": 0.487
   },
   "confusion_matrix": {
-    "true_negatives": 4718,
-    "false_positives": 49,
-    "false_negatives": 71,
-    "true_positives": 106
+    "true_negatives": 7390,
+    "false_positives": 153,
+    "false_negatives": 190,
+    "true_positives": 163
   },
   "feature_importance": [
     {
       "feature": "Zonnestraling",
-      "importance": 0.4517
+      "importance": 0.4932
     },
     {
       "feature": "Weekend",
-      "importance": 0.1554
+      "importance": 0.137
     },
     {
       "feature": "Windsnelheid",
-      "importance": 0.1339
+      "importance": 0.1167
     },
     {
       "feature": "Temperatuur",
-      "importance": 0.0986
+      "importance": 0.0906
     },
     {
       "feature": "Uur",
-      "importance": 0.0545
-    },
-    {
-      "feature": "Maand",
-      "importance": 0.0538
+      "importance": 0.0555
     },
     {
       "feature": "Zonne-uur",
-      "importance": 0.0397
+      "importance": 0.0518
+    },
+    {
+      "feature": "Maand",
+      "importance": 0.0351
     },
     {
       "feature": "Feestdag",
-      "importance": 0.0122
+      "importance": 0.02
     },
     {
       "feature": "Heet (>25\u00b0C)",
-      "importance": 0.0002
+      "importance": 0.0
     }
   ],
   "monthly_comparison": [
+    {
+      "month": "2025-07",
+      "month_label": "Jul 2025",
+      "actual": 12,
+      "predicted": 59,
+      "correct": 7
+    },
+    {
+      "month": "2025-08",
+      "month_label": "Aug 2025",
+      "actual": 57,
+      "predicted": 56,
+      "correct": 26
+    },
+    {
+      "month": "2025-09",
+      "month_label": "Sep 2025",
+      "actual": 61,
+      "predicted": 38,
+      "correct": 19
+    },
+    {
+      "month": "2025-10",
+      "month_label": "Okt 2025",
+      "actual": 46,
+      "predicted": 7,
+      "correct": 7
+    },
     {
       "month": "2025-11",
       "month_label": "Nov 2025",
@@ -92,21 +120,21 @@
       "month": "2026-03",
       "month_label": "Mrt 2026",
       "actual": 20,
-      "predicted": 21,
-      "correct": 8
+      "predicted": 18,
+      "correct": 7
     },
     {
       "month": "2026-04",
       "month_label": "Apr 2026",
       "actual": 107,
-      "predicted": 71,
-      "correct": 55
+      "predicted": 73,
+      "correct": 54
     },
     {
       "month": "2026-05",
       "month_label": "Mei 2026",
       "actual": 50,
-      "predicted": 63,
+      "predicted": 65,
       "correct": 43
     }
   ],
@@ -117,9 +145,9 @@
   },
   "distribution_shift": {
     "description": "Verhouding hete uren (>25\u00b0C) met negatieve prijs",
-    "train_hot_hours": 358,
-    "train_neg_rate": 21.5,
-    "test_hot_hours": 24,
-    "test_neg_rate": 66.7
+    "train_hot_hours": 254,
+    "train_neg_rate": 28.3,
+    "test_hot_hours": 128,
+    "test_neg_rate": 16.4
   }
 }

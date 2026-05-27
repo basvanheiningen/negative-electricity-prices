@@ -18,8 +18,8 @@ KNMI_PATH = BASE_DIR / "data/knmi/uurgeg_260_2021-2030.txt"
 OUTPUT_PATH = BASE_DIR / "web/public/data/model_results_2026_05.json"
 
 TRAIN_START = pd.Timestamp("2024-01-01")
-TRAIN_END = pd.Timestamp("2025-10-31 23:00:00")
-TEST_START = pd.Timestamp("2025-11-01")
+TRAIN_END = pd.Timestamp("2025-06-30 23:00:00")
+TEST_START = pd.Timestamp("2025-07-01")
 TEST_END = pd.Timestamp("2026-05-27")
 
 # Dutch public holidays — includes Labour Day (May 1)
@@ -198,8 +198,8 @@ def main():
         "model_info": {
             "name": "Gradient Boosting (Uurlijks) — Update 2026-05",
             "type": "classification",
-            "train_period": "Jan 2024 – Okt 2025",
-            "test_period": "Nov 2025 – Mei 2026",
+            "train_period": "Jan 2024 – Jun 2025",
+            "test_period": "Jul 2025 – Mei 2026",
             "train_hours": len(train),
             "test_hours": len(test),
             "train_negative_pct": round(float(train["is_negative"].mean()) * 100, 1),
