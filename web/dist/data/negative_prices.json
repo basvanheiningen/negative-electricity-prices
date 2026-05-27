@@ -287,6 +287,22 @@
     {
       "month": "2026-01",
       "count": 0
+    },
+    {
+      "month": "2026-02",
+      "count": 0
+    },
+    {
+      "month": "2026-03",
+      "count": 20
+    },
+    {
+      "month": "2026-04",
+      "count": 107
+    },
+    {
+      "month": "2026-05",
+      "count": 55
     }
   ],
   "monthly_comparison": {
@@ -420,6 +436,26 @@
         "year": 2026,
         "month": 1,
         "count": 0
+      },
+      {
+        "year": 2026,
+        "month": 2,
+        "count": 0
+      },
+      {
+        "year": 2026,
+        "month": 3,
+        "count": 20
+      },
+      {
+        "year": 2026,
+        "month": 4,
+        "count": 107
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "count": 55
       }
     ]
   },
@@ -456,10 +492,10 @@
     },
     {
       "year": 2026,
-      "count": 0,
+      "count": 182,
       "extrapolated": true,
       "extrapolated_count": 649,
-      "coverage": 8.2
+      "coverage": 40.0
     }
   ],
   "heatmap": [
@@ -481,7 +517,7 @@
     {
       "hour": 0,
       "month": 4,
-      "frequency": 0.56
+      "frequency": 0.95
     },
     {
       "hour": 0,
@@ -536,17 +572,17 @@
     {
       "hour": 1,
       "month": 3,
-      "frequency": 0.54
+      "frequency": 0.92
     },
     {
       "hour": 1,
       "month": 4,
-      "frequency": 0.0
+      "frequency": 0.48
     },
     {
       "hour": 1,
       "month": 5,
-      "frequency": 1.08
+      "frequency": 0.94
     },
     {
       "hour": 1,
@@ -586,27 +622,27 @@
     {
       "hour": 2,
       "month": 1,
-      "frequency": 2.16
+      "frequency": 2.15
     },
     {
       "hour": 2,
       "month": 2,
-      "frequency": 0.7
+      "frequency": 0.59
     },
     {
       "hour": 2,
       "month": 3,
-      "frequency": 0.54
+      "frequency": 0.92
     },
     {
       "hour": 2,
       "month": 4,
-      "frequency": 0.0
+      "frequency": 0.48
     },
     {
       "hour": 2,
       "month": 5,
-      "frequency": 1.08
+      "frequency": 0.94
     },
     {
       "hour": 2,
@@ -646,27 +682,27 @@
     {
       "hour": 3,
       "month": 1,
-      "frequency": 2.16
+      "frequency": 2.15
     },
     {
       "hour": 3,
       "month": 2,
-      "frequency": 1.41
+      "frequency": 1.18
     },
     {
       "hour": 3,
       "month": 3,
-      "frequency": 0.54
+      "frequency": 0.92
     },
     {
       "hour": 3,
       "month": 4,
-      "frequency": 0.56
+      "frequency": 0.95
     },
     {
       "hour": 3,
       "month": 5,
-      "frequency": 1.08
+      "frequency": 0.94
     },
     {
       "hour": 3,
@@ -711,22 +747,22 @@
     {
       "hour": 4,
       "month": 2,
-      "frequency": 0.7
+      "frequency": 0.59
     },
     {
       "hour": 4,
       "month": 3,
-      "frequency": 0.54
+      "frequency": 0.46
     },
     {
       "hour": 4,
       "month": 4,
-      "frequency": 0.56
+      "frequency": 0.95
     },
     {
       "hour": 4,
       "month": 5,
-      "frequency": 0.54
+      "frequency": 0.47
     },
     {
       "hour": 4,
@@ -771,22 +807,22 @@
     {
       "hour": 5,
       "month": 2,
-      "frequency": 0.7
+      "frequency": 0.59
     },
     {
       "hour": 5,
       "month": 3,
-      "frequency": 1.08
+      "frequency": 0.92
     },
     {
       "hour": 5,
       "month": 4,
-      "frequency": 0.56
+      "frequency": 0.95
     },
     {
       "hour": 5,
       "month": 5,
-      "frequency": 0.54
+      "frequency": 0.47
     },
     {
       "hour": 5,
@@ -836,17 +872,17 @@
     {
       "hour": 6,
       "month": 3,
-      "frequency": 0.54
+      "frequency": 0.46
     },
     {
       "hour": 6,
       "month": 4,
-      "frequency": 1.11
+      "frequency": 1.43
     },
     {
       "hour": 6,
       "month": 5,
-      "frequency": 0.54
+      "frequency": 0.47
     },
     {
       "hour": 6,
@@ -896,17 +932,17 @@
     {
       "hour": 7,
       "month": 3,
-      "frequency": 0.54
+      "frequency": 0.46
     },
     {
       "hour": 7,
       "month": 4,
-      "frequency": 1.67
+      "frequency": 1.9
     },
     {
       "hour": 7,
       "month": 5,
-      "frequency": 2.69
+      "frequency": 3.3
     },
     {
       "hour": 7,
@@ -956,17 +992,17 @@
     {
       "hour": 8,
       "month": 3,
-      "frequency": 1.61
+      "frequency": 1.38
     },
     {
       "hour": 8,
       "month": 4,
-      "frequency": 6.11
+      "frequency": 8.1
     },
     {
       "hour": 8,
       "month": 5,
-      "frequency": 10.75
+      "frequency": 12.26
     },
     {
       "hour": 8,
@@ -1021,12 +1057,12 @@
     {
       "hour": 9,
       "month": 4,
-      "frequency": 11.67
+      "frequency": 16.19
     },
     {
       "hour": 9,
       "month": 5,
-      "frequency": 18.28
+      "frequency": 19.81
     },
     {
       "hour": 9,
@@ -1076,17 +1112,17 @@
     {
       "hour": 10,
       "month": 3,
-      "frequency": 8.6
+      "frequency": 8.76
     },
     {
       "hour": 10,
       "month": 4,
-      "frequency": 16.11
+      "frequency": 21.9
     },
     {
       "hour": 10,
       "month": 5,
-      "frequency": 23.12
+      "frequency": 24.53
     },
     {
       "hour": 10,
@@ -1136,17 +1172,17 @@
     {
       "hour": 11,
       "month": 3,
-      "frequency": 14.52
+      "frequency": 14.29
     },
     {
       "hour": 11,
       "month": 4,
-      "frequency": 21.67
+      "frequency": 27.14
     },
     {
       "hour": 11,
       "month": 5,
-      "frequency": 30.65
+      "frequency": 31.13
     },
     {
       "hour": 11,
@@ -1196,17 +1232,17 @@
     {
       "hour": 12,
       "month": 3,
-      "frequency": 16.67
+      "frequency": 16.59
     },
     {
       "hour": 12,
       "month": 4,
-      "frequency": 24.44
+      "frequency": 29.05
     },
     {
       "hour": 12,
       "month": 5,
-      "frequency": 32.8
+      "frequency": 33.02
     },
     {
       "hour": 12,
@@ -1256,17 +1292,17 @@
     {
       "hour": 13,
       "month": 3,
-      "frequency": 11.29
+      "frequency": 11.06
     },
     {
       "hour": 13,
       "month": 4,
-      "frequency": 23.33
+      "frequency": 27.62
     },
     {
       "hour": 13,
       "month": 5,
-      "frequency": 30.11
+      "frequency": 30.19
     },
     {
       "hour": 13,
@@ -1316,17 +1352,17 @@
     {
       "hour": 14,
       "month": 3,
-      "frequency": 5.38
+      "frequency": 5.07
     },
     {
       "hour": 14,
       "month": 4,
-      "frequency": 13.89
+      "frequency": 16.19
     },
     {
       "hour": 14,
       "month": 5,
-      "frequency": 18.82
+      "frequency": 18.4
     },
     {
       "hour": 14,
@@ -1376,17 +1412,17 @@
     {
       "hour": 15,
       "month": 3,
-      "frequency": 1.08
+      "frequency": 0.92
     },
     {
       "hour": 15,
       "month": 4,
-      "frequency": 2.22
+      "frequency": 2.86
     },
     {
       "hour": 15,
       "month": 5,
-      "frequency": 4.84
+      "frequency": 4.25
     },
     {
       "hour": 15,
@@ -1861,7 +1897,7 @@
     {
       "hour": 23,
       "month": 4,
-      "frequency": 0.0
+      "frequency": 0.48
     },
     {
       "hour": 23,
@@ -1905,22 +1941,22 @@
     }
   ],
   "statistics": {
-    "total_hours": 51912,
-    "negative_hours": 1602,
-    "percentage": 3.09,
+    "total_hours": 54696,
+    "negative_hours": 1784,
+    "percentage": 3.26,
     "most_negative": {
       "price": -500.0,
       "datetime": "2023-07-02T11:00:00"
     },
     "price_distribution": {
       "min": -500.0,
-      "max": -0.009999999999999995,
-      "mean": -17.90165574282147,
-      "median": -4.1
+      "max": -0.0025,
+      "mean": -19.36527746636771,
+      "median": -4.175000000000001
     },
     "date_range": {
       "start": "2019-12-31T23:00:00",
-      "end": "2026-01-30T22:00:00"
+      "end": "2026-05-26T22:00:00"
     }
   }
 }

@@ -16,8 +16,9 @@
     <a href="#section-july" class="dot" data-section="5" aria-label="Sectie 6: Juli Vergelijking"></a>
     <a href="#section-september" class="dot" data-section="6" aria-label="Sectie 7: September Vergelijking"></a>
     <a href="#section-model" class="dot" data-section="7" aria-label="Sectie 8: Model"></a>
-    <a href="#section-analysis" class="dot" data-section="8" aria-label="Sectie 9: Analyse"></a>
-    <a href="#section-research" class="dot" data-section="9" aria-label="Sectie 10: Onderzoek"></a>
+    <a href="#section-model-2026" class="dot" data-section="8" aria-label="Sectie 9: Model Update 2026"></a>
+    <a href="#section-analysis" class="dot" data-section="9" aria-label="Sectie 10: Analyse"></a>
+    <a href="#section-research" class="dot" data-section="10" aria-label="Sectie 11: Onderzoek"></a>
   </nav>
 
   <main class="scroll-container">
@@ -505,7 +506,90 @@
       </div>
     </section>
 
-    <!-- Section 9: Research -->
+    <!-- Section 9: Model Update 2026-05 -->
+    <section id="section-model-2026" class="section section-model">
+      <div class="section-content">
+        <h2>Voorspelmodel: Negatieve Prijzen — Update 2026-05</h2>
+        <p class="intro">
+          We hertrainden het model met uitgebreide data (t/m oktober 2025) en testten op de laatste
+          7 maanden: november 2025 t/m mei 2026. De feestdagenkalender bevat nu ook <strong>1 mei (Dag van de Arbeid)</strong>.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-card">
+            <span class="stat-value" id="stat-model2026-accuracy">--</span>
+            <span class="stat-label">nauwkeurigheid</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-model2026-precision">--</span>
+            <span class="stat-label">precisie</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-model2026-recall">--</span>
+            <span class="stat-label">recall</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-model2026-f1">--</span>
+            <span class="stat-label">F1-score</span>
+          </div>
+        </div>
+
+        <div class="explanation-box">
+          <h3>Modeldetails</h3>
+          <ul>
+            <li><strong>Type:</strong> Gradient Boosting Classifier (per uur)</li>
+            <li><strong>Trainingsperiode:</strong> januari 2024 – oktober 2025 (16.080 uren)</li>
+            <li><strong>Testperiode:</strong> november 2025 – mei 2026 (4.944 uren)</li>
+            <li><strong>Features:</strong> zonnestraling, windsnelheid, temperatuur, uur, weekend, feestdag, maand, zonne-uur</li>
+            <li><strong>Feestdagen:</strong> nieuwjaarsdag, Goede Vrijdag, Pasen, Koningsdag, <strong>1 mei</strong>, Bevrijdingsdag, Hemelvaart, Pinksteren, Kerstmis</li>
+          </ul>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-container">
+            <h3>Belang van features</h3>
+            <p class="chart-subtitle">Welke variabelen voorspellen negatieve prijzen?</p>
+            <canvas id="chart-feature-importance-2026"></canvas>
+          </div>
+          <div class="chart-container">
+            <h3>Voorspelling vs. werkelijkheid per maand</h3>
+            <p class="chart-subtitle">Testperiode: nov 2025 – mei 2026</p>
+            <canvas id="chart-monthly-model-2026"></canvas>
+          </div>
+        </div>
+
+        <div class="explanation-box highlight-box">
+          <h3>Verbeterde prestaties</h3>
+          <p>
+            Het bijgewerkte model scoort aanzienlijk beter dan de vorige versie: de F1-score steeg van 0,37 naar 0,64.
+            <strong>Weekend-status</strong> werd belangrijker (16% vs. 13%), terwijl zonnestraling (45%) de
+            dominante voorspeller blijft. Het model voorspelde april 2026 iets te laag (71 vs. 107 werkelijk)
+            — de extreme uitschieters rond <strong>-€500/MWh</strong> op feestdagen zijn zelfs voor het model onverwacht.
+          </p>
+        </div>
+
+        <div class="explanation-box highlight-box">
+          <h3>1 mei 2026: Dag van de Arbeid</h3>
+          <p>
+            Op 1 mei 2026 — een nationale feestdag — zakte de prijs tot <strong>-€498/MWh</strong> om 11:00 uur.
+            Het model, nu voorzien van de feestdagfeature voor 1 mei, voorspelde <strong>7 van de 8 negatieve uren</strong>
+            correct. Zonder de feestdagfeature zou dit misgelopen zijn.
+          </p>
+        </div>
+
+        <div class="explanation-box highlight-box-warning">
+          <h3>Wat het model nog mist</h3>
+          <p>
+            Het model onderschat de <strong>extreme diepte</strong> van negatieve prijzen in april en mei 2026.
+            De combinatie van veel zon, een lage vraag op feestdagen én overaanbod door wind verklaart de
+            recordprijzen — maar het model gebruikt geen windvermogensdata of nettovraagdata. Dat zijn de
+            ontbrekende variabelen voor een volgende versie.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 10: Research -->
     <section id="section-research" class="section section-research">
       <div class="section-content">
         <h2>Onderzoek</h2>

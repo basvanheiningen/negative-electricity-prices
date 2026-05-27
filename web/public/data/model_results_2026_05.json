@@ -1,0 +1,125 @@
+{
+  "model_info": {
+    "name": "Gradient Boosting (Uurlijks) \u2014 Update 2026-05",
+    "type": "classification",
+    "train_period": "Jan 2024 \u2013 Okt 2025",
+    "test_period": "Nov 2025 \u2013 Mei 2026",
+    "train_hours": 16080,
+    "test_hours": 4944,
+    "train_negative_pct": 6.5,
+    "test_negative_pct": 3.6
+  },
+  "metrics": {
+    "accuracy": 0.976,
+    "precision": 0.684,
+    "recall": 0.599,
+    "f1": 0.639
+  },
+  "confusion_matrix": {
+    "true_negatives": 4718,
+    "false_positives": 49,
+    "false_negatives": 71,
+    "true_positives": 106
+  },
+  "feature_importance": [
+    {
+      "feature": "Zonnestraling",
+      "importance": 0.4517
+    },
+    {
+      "feature": "Weekend",
+      "importance": 0.1554
+    },
+    {
+      "feature": "Windsnelheid",
+      "importance": 0.1339
+    },
+    {
+      "feature": "Temperatuur",
+      "importance": 0.0986
+    },
+    {
+      "feature": "Uur",
+      "importance": 0.0545
+    },
+    {
+      "feature": "Maand",
+      "importance": 0.0538
+    },
+    {
+      "feature": "Zonne-uur",
+      "importance": 0.0397
+    },
+    {
+      "feature": "Feestdag",
+      "importance": 0.0122
+    },
+    {
+      "feature": "Heet (>25\u00b0C)",
+      "importance": 0.0002
+    }
+  ],
+  "monthly_comparison": [
+    {
+      "month": "2025-11",
+      "month_label": "Nov 2025",
+      "actual": 0,
+      "predicted": 0,
+      "correct": 0
+    },
+    {
+      "month": "2025-12",
+      "month_label": "Dec 2025",
+      "actual": 0,
+      "predicted": 0,
+      "correct": 0
+    },
+    {
+      "month": "2026-01",
+      "month_label": "Jan 2026",
+      "actual": 0,
+      "predicted": 0,
+      "correct": 0
+    },
+    {
+      "month": "2026-02",
+      "month_label": "Feb 2026",
+      "actual": 0,
+      "predicted": 0,
+      "correct": 0
+    },
+    {
+      "month": "2026-03",
+      "month_label": "Mrt 2026",
+      "actual": 20,
+      "predicted": 21,
+      "correct": 8
+    },
+    {
+      "month": "2026-04",
+      "month_label": "Apr 2026",
+      "actual": 107,
+      "predicted": 71,
+      "correct": 55
+    },
+    {
+      "month": "2026-05",
+      "month_label": "Mei 2026",
+      "actual": 50,
+      "predicted": 63,
+      "correct": 43
+    }
+  ],
+  "labour_day": {
+    "actual_negative_hours": 8,
+    "predicted_negative_hours": 7,
+    "total_hours": 24
+  },
+  "distribution_shift": {
+    "description": "Verhouding hete uren (>25\u00b0C) met negatieve prijs",
+    "train_hot_hours": 358,
+    "train_neg_rate": 21.5,
+    "test_hot_hours": 24,
+    "test_neg_rate": 66.7
+  }
+}
