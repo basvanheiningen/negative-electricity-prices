@@ -17,8 +17,9 @@
     <a href="#section-september" class="dot" data-section="6" aria-label="Sectie 7: September Vergelijking"></a>
     <a href="#section-model" class="dot" data-section="7" aria-label="Sectie 8: Model"></a>
     <a href="#section-model-2026" class="dot" data-section="8" aria-label="Sectie 9: Model Update 2026"></a>
-    <a href="#section-analysis" class="dot" data-section="9" aria-label="Sectie 10: Analyse"></a>
-    <a href="#section-research" class="dot" data-section="10" aria-label="Sectie 11: Onderzoek"></a>
+    <a href="#section-april-may-2026" class="dot" data-section="9" aria-label="Sectie 10: Case Study April-Mei 2026"></a>
+    <a href="#section-analysis" class="dot" data-section="10" aria-label="Sectie 11: Analyse"></a>
+    <a href="#section-research" class="dot" data-section="11" aria-label="Sectie 12: Onderzoek"></a>
   </nav>
 
   <main class="scroll-container">
@@ -590,7 +591,78 @@
       </div>
     </section>
 
-    <!-- Section 10: Research -->
+    <!-- Section 10: Case Study April-Mei 2026 -->
+    <section id="section-april-may-2026" class="section section-july">
+      <div class="section-content">
+        <h2>Case Study: Extreme Prijzen April–Mei 2026</h2>
+        <p class="intro">
+          April en mei 2026 bevatten de meest extreme negatieve prijzen ooit gemeten in Nederland.
+          Op <strong>1 mei 2026</strong> daalde de prijs naar <strong>-€498/MWh</strong> — bijna het wettelijk plafond.
+          Wat was er anders dan vergelijkbare feestdagen in 2025?
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-card stat-negative">
+            <span class="stat-value" id="stat-am26-worst">--</span>
+            <span class="stat-label">laagste prijs 1 mei 2026</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-am26-neg-hours">--</span>
+            <span class="stat-label">negatieve uren (3 extreme dagen)</span>
+          </div>
+          <div class="stat-card stat-negative">
+            <span class="stat-value" id="stat-am26-wind">--</span>
+            <span class="stat-label">meer windenergie vs. 1 mei 2025</span>
+          </div>
+        </div>
+
+        <div class="explanation-box">
+          <h3>Wind was de doorslaggevende factor</h3>
+          <ul>
+            <li><strong>+174% meer windenergie:</strong> Op de extreme dagen produceerde wind gemiddeld 956 MW — tegenover 349 MW op vergelijkbare feestdagen in 2025. Op 1 mei 2026 alleen al was dit 1.463 MW vs. 256 MW.</li>
+            <li><strong>Zonneschijn vrijwel gelijk:</strong> De globale straling was op de extreme dagen zelfs iets lager (2.503 vs. 2.588 J/cm²). De zon was dus niet de veroorzaker.</li>
+            <li><strong>Gasproductie minimaal:</strong> Met zoveel wind en zon in het net draaiden gascentrales nauwelijks — maar zelfs dat was niet genoeg om de overproductie te absorberen.</li>
+            <li><strong>Lage vraag door feestdagen/weekend:</strong> Alle drie de extreme dagen vielen op een feestdag of weekend, waardoor de industriële vraag sterk verlaagd was.</li>
+          </ul>
+        </div>
+
+        <div class="charts-grid">
+          <div class="chart-container">
+            <h3>Vergelijking: wind & zon vs. 2025</h3>
+            <p class="chart-subtitle">Gemiddeld vermogen op extreme dagen vs. vergelijkbare 2025-feestdagen</p>
+            <canvas id="chart-am26-factors"></canvas>
+          </div>
+          <div class="chart-container">
+            <h3>Uurprijzen: extreme dagen vs. referentie</h3>
+            <p class="chart-subtitle">Prijs per uur (UTC) — stippellijn = 2025 referentie</p>
+            <canvas id="chart-am26-hourly"></canvas>
+          </div>
+        </div>
+
+        <div class="explanation-box highlight-box">
+          <h3>Conclusie: de perfecte storm</h3>
+          <p>
+            Op 1 mei 2026 was sprake van een zeldzame combinatie: een nationale feestdag (lage vraag),
+            volop zon én ongewoon sterke wind (4,0 m/s vs. 1,5 m/s in 2025). Het windvermogen was
+            <strong>5,7× hoger</strong> dan op Labour Day 2025. De prijs bereikte -€498/MWh
+            — bijna het Europese vloerplafond van -€500/MWh. Het elektriciteitsnet kon het aanbod niet snel
+            genoeg afschalen, waardoor producenten moesten <em>betalen</em> om af te leveren.
+          </p>
+        </div>
+
+        <div class="explanation-box highlight-box-wind">
+          <h3>25 & 26 april: het patroon herhaalt zich</h3>
+          <p>
+            Ook het weekend van 25–26 april liet extreme prijzen zien (-€190 en -€413/MWh).
+            Zonneschijn was vergelijkbaar met Koningsdag 2025, maar de wind was <strong>+35% sterker</strong>.
+            Dit bevestigt het patroon: de zon zet de toon voor negatieve prijzen in het voorjaar,
+            maar wind bepaalt hoe extreem het wordt.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 11: Research -->
     <section id="section-research" class="section section-research">
       <div class="section-content">
         <h2>Onderzoek</h2>

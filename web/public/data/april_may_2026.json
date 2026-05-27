@@ -1,0 +1,601 @@
+{
+  "extreme_days": [
+    {
+      "date": "2026-04-25",
+      "label": "25 apr 2026 (zat)",
+      "neg_hours": 8,
+      "min_price": -190.3,
+      "avg_price": 50.3,
+      "wind_mw": 647.0,
+      "solar_mw": 44.0,
+      "gas_mw": 2531.0,
+      "total_mw": 9862.0,
+      "radiation_jcm2": 2431.0,
+      "sunshine_hours": 10.9,
+      "wind_ms": 2.4,
+      "hourly_prices": [
+        {
+          "hour": 0,
+          "price": 116.2
+        },
+        {
+          "hour": 1,
+          "price": 105.3
+        },
+        {
+          "hour": 2,
+          "price": 110.0
+        },
+        {
+          "hour": 3,
+          "price": 106.0
+        },
+        {
+          "hour": 4,
+          "price": 134.2
+        },
+        {
+          "hour": 5,
+          "price": 125.0
+        },
+        {
+          "hour": 6,
+          "price": 132.2
+        },
+        {
+          "hour": 7,
+          "price": 55.0
+        },
+        {
+          "hour": 8,
+          "price": -1.3
+        },
+        {
+          "hour": 9,
+          "price": -42.1
+        },
+        {
+          "hour": 10,
+          "price": -100.3
+        },
+        {
+          "hour": 11,
+          "price": -176.0
+        },
+        {
+          "hour": 12,
+          "price": -190.3
+        },
+        {
+          "hour": 13,
+          "price": -133.6
+        },
+        {
+          "hour": 14,
+          "price": -53.8
+        },
+        {
+          "hour": 15,
+          "price": -1.5
+        },
+        {
+          "hour": 16,
+          "price": 85.1
+        },
+        {
+          "hour": 17,
+          "price": 127.0
+        },
+        {
+          "hour": 18,
+          "price": 151.4
+        },
+        {
+          "hour": 19,
+          "price": 156.1
+        },
+        {
+          "hour": 20,
+          "price": 144.3
+        },
+        {
+          "hour": 21,
+          "price": 139.4
+        },
+        {
+          "hour": 22,
+          "price": 120.0
+        },
+        {
+          "hour": 23,
+          "price": 100.0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "label": "26 apr 2026 (zon)",
+      "neg_hours": 7,
+      "min_price": -413.3,
+      "avg_price": 12.8,
+      "wind_mw": 757.0,
+      "solar_mw": 39.0,
+      "gas_mw": 2686.0,
+      "total_mw": 10327.0,
+      "radiation_jcm2": 2440.0,
+      "sunshine_hours": 13.2,
+      "wind_ms": 2.3,
+      "hourly_prices": [
+        {
+          "hour": 0,
+          "price": 98.2
+        },
+        {
+          "hour": 1,
+          "price": 112.1
+        },
+        {
+          "hour": 2,
+          "price": 118.9
+        },
+        {
+          "hour": 3,
+          "price": 112.6
+        },
+        {
+          "hour": 4,
+          "price": 120.2
+        },
+        {
+          "hour": 5,
+          "price": 116.0
+        },
+        {
+          "hour": 6,
+          "price": 79.7
+        },
+        {
+          "hour": 7,
+          "price": 0.4
+        },
+        {
+          "hour": 8,
+          "price": -28.2
+        },
+        {
+          "hour": 9,
+          "price": -127.2
+        },
+        {
+          "hour": 10,
+          "price": -259.7
+        },
+        {
+          "hour": 11,
+          "price": -413.3
+        },
+        {
+          "hour": 12,
+          "price": -412.9
+        },
+        {
+          "hour": 13,
+          "price": -235.5
+        },
+        {
+          "hour": 14,
+          "price": -37.3
+        },
+        {
+          "hour": 15,
+          "price": 11.7
+        },
+        {
+          "hour": 16,
+          "price": 118.1
+        },
+        {
+          "hour": 17,
+          "price": 158.9
+        },
+        {
+          "hour": 18,
+          "price": 165.7
+        },
+        {
+          "hour": 19,
+          "price": 145.1
+        },
+        {
+          "hour": 20,
+          "price": 127.6
+        },
+        {
+          "hour": 21,
+          "price": 119.4
+        },
+        {
+          "hour": 22,
+          "price": 111.5
+        },
+        {
+          "hour": 23,
+          "price": 106.2
+        }
+      ]
+    },
+    {
+      "date": "2026-05-01",
+      "label": "1 mei 2026 (feestdag)",
+      "neg_hours": 8,
+      "min_price": -498.4,
+      "avg_price": 2.4,
+      "wind_mw": 1463.0,
+      "solar_mw": 42.0,
+      "gas_mw": 1950.0,
+      "total_mw": 3758.0,
+      "radiation_jcm2": 2637.0,
+      "sunshine_hours": 13.8,
+      "wind_ms": 4.0,
+      "hourly_prices": [
+        {
+          "hour": 0,
+          "price": 101.4
+        },
+        {
+          "hour": 1,
+          "price": 99.3
+        },
+        {
+          "hour": 2,
+          "price": 97.8
+        },
+        {
+          "hour": 3,
+          "price": 97.5
+        },
+        {
+          "hour": 4,
+          "price": 105.0
+        },
+        {
+          "hour": 5,
+          "price": 91.2
+        },
+        {
+          "hour": 6,
+          "price": 33.9
+        },
+        {
+          "hour": 7,
+          "price": -0.0
+        },
+        {
+          "hour": 8,
+          "price": -21.1
+        },
+        {
+          "hour": 9,
+          "price": -107.9
+        },
+        {
+          "hour": 10,
+          "price": -317.3
+        },
+        {
+          "hour": 11,
+          "price": -498.4
+        },
+        {
+          "hour": 12,
+          "price": -474.0
+        },
+        {
+          "hour": 13,
+          "price": -205.2
+        },
+        {
+          "hour": 14,
+          "price": -26.2
+        },
+        {
+          "hour": 15,
+          "price": 5.1
+        },
+        {
+          "hour": 16,
+          "price": 98.3
+        },
+        {
+          "hour": 17,
+          "price": 160.0
+        },
+        {
+          "hour": 18,
+          "price": 177.9
+        },
+        {
+          "hour": 19,
+          "price": 142.9
+        },
+        {
+          "hour": 20,
+          "price": 134.0
+        },
+        {
+          "hour": 21,
+          "price": 125.4
+        },
+        {
+          "hour": 22,
+          "price": 123.4
+        },
+        {
+          "hour": 23,
+          "price": 115.1
+        }
+      ]
+    }
+  ],
+  "reference_days": [
+    {
+      "date": "2025-04-27",
+      "label": "27 apr 2025 (Koningsdag)",
+      "neg_hours": 7,
+      "min_price": -189.9,
+      "avg_price": 32.8,
+      "wind_mw": 442.0,
+      "solar_mw": 55.0,
+      "gas_mw": 2278.0,
+      "total_mw": 9553.0,
+      "radiation_jcm2": 2598.0,
+      "sunshine_hours": 13.5,
+      "wind_ms": 1.8,
+      "hourly_prices": [
+        {
+          "hour": 0,
+          "price": 95.6
+        },
+        {
+          "hour": 1,
+          "price": 95.6
+        },
+        {
+          "hour": 2,
+          "price": 95.6
+        },
+        {
+          "hour": 3,
+          "price": 85.0
+        },
+        {
+          "hour": 4,
+          "price": 79.8
+        },
+        {
+          "hour": 5,
+          "price": 69.9
+        },
+        {
+          "hour": 6,
+          "price": 39.9
+        },
+        {
+          "hour": 7,
+          "price": 0.0
+        },
+        {
+          "hour": 8,
+          "price": -3.0
+        },
+        {
+          "hour": 9,
+          "price": -54.0
+        },
+        {
+          "hour": 10,
+          "price": -147.2
+        },
+        {
+          "hour": 11,
+          "price": -189.9
+        },
+        {
+          "hour": 12,
+          "price": -150.0
+        },
+        {
+          "hour": 13,
+          "price": -50.0
+        },
+        {
+          "hour": 14,
+          "price": -5.2
+        },
+        {
+          "hour": 15,
+          "price": 18.4
+        },
+        {
+          "hour": 16,
+          "price": 89.7
+        },
+        {
+          "hour": 17,
+          "price": 111.4
+        },
+        {
+          "hour": 18,
+          "price": 126.0
+        },
+        {
+          "hour": 19,
+          "price": 110.0
+        },
+        {
+          "hour": 20,
+          "price": 99.0
+        },
+        {
+          "hour": 21,
+          "price": 93.6
+        },
+        {
+          "hour": 22,
+          "price": 91.1
+        },
+        {
+          "hour": 23,
+          "price": 85.1
+        }
+      ]
+    },
+    {
+      "date": "2025-05-01",
+      "label": "1 mei 2025 (feestdag)",
+      "neg_hours": 7,
+      "min_price": -142.4,
+      "avg_price": 45.0,
+      "wind_mw": 256.0,
+      "solar_mw": 67.0,
+      "gas_mw": 2847.0,
+      "total_mw": 10383.0,
+      "radiation_jcm2": 2578.0,
+      "sunshine_hours": 13.3,
+      "wind_ms": 1.5,
+      "hourly_prices": [
+        {
+          "hour": 0,
+          "price": 85.9
+        },
+        {
+          "hour": 1,
+          "price": 86.6
+        },
+        {
+          "hour": 2,
+          "price": 85.9
+        },
+        {
+          "hour": 3,
+          "price": 80.7
+        },
+        {
+          "hour": 4,
+          "price": 87.2
+        },
+        {
+          "hour": 5,
+          "price": 87.4
+        },
+        {
+          "hour": 6,
+          "price": 85.2
+        },
+        {
+          "hour": 7,
+          "price": 0.0
+        },
+        {
+          "hour": 8,
+          "price": -3.0
+        },
+        {
+          "hour": 9,
+          "price": -40.1
+        },
+        {
+          "hour": 10,
+          "price": -108.1
+        },
+        {
+          "hour": 11,
+          "price": -142.4
+        },
+        {
+          "hour": 12,
+          "price": -118.1
+        },
+        {
+          "hour": 13,
+          "price": -50.0
+        },
+        {
+          "hour": 14,
+          "price": -5.2
+        },
+        {
+          "hour": 15,
+          "price": 46.2
+        },
+        {
+          "hour": 16,
+          "price": 96.2
+        },
+        {
+          "hour": 17,
+          "price": 129.9
+        },
+        {
+          "hour": 18,
+          "price": 165.1
+        },
+        {
+          "hour": 19,
+          "price": 126.7
+        },
+        {
+          "hour": 20,
+          "price": 104.9
+        },
+        {
+          "hour": 21,
+          "price": 90.9
+        },
+        {
+          "hour": 22,
+          "price": 96.0
+        },
+        {
+          "hour": 23,
+          "price": 92.2
+        }
+      ]
+    }
+  ],
+  "key_factors": [
+    {
+      "factor": "Windenergie",
+      "extreme": 955.7,
+      "reference": 349.0,
+      "unit": "MW",
+      "change_pct": 173.8
+    },
+    {
+      "factor": "Zonnestraling",
+      "extreme": 2502.7,
+      "reference": 2588.0,
+      "unit": "J/cm\u00b2",
+      "change_pct": -3.3
+    },
+    {
+      "factor": "Gasproductie",
+      "extreme": 2389.0,
+      "reference": 2562.5,
+      "unit": "MW",
+      "change_pct": -6.8
+    },
+    {
+      "factor": "Windsnelheid",
+      "extreme": 2.9,
+      "reference": 1.6,
+      "unit": "m/s",
+      "change_pct": 81.2
+    }
+  ],
+  "summary": {
+    "worst_price": -498.4,
+    "worst_date": "1 mei 2026",
+    "total_extreme_neg_hours": 23
+  }
+}

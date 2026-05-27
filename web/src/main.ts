@@ -22,6 +22,7 @@ import { initJulyComparisonCharts } from './charts/julycomparison';
 import { initSeptemberComparisonCharts } from './charts/septembercomparison';
 import { initModelCharts } from './charts/model';
 import { initModel2026Charts } from './charts/model2026';
+import { initAprilMay2026Charts } from './charts/aprilmay2026';
 
 // Register Chart.js components
 Chart.register(
@@ -51,6 +52,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       initSeptemberComparisonCharts(),
       initModelCharts(),
       initModel2026Charts(),
+      initAprilMay2026Charts(),
       initCorrelationCharts()
     ]);
     console.log('Charts initialized successfully');
