@@ -81,10 +81,12 @@ def fetch_day_ahead_prices(
 
     print(f"Fetching day-ahead prices ({start.date()} to {end.date()})...")
     combined = _fetch_in_chunks(
-        lambda start, end, **kw: client.query_day_ahead_prices(country_code, start=start, end=end),
+        lambda start, end, **kw: client.query_day_ahead_prices(country_code, start=start, end=end, resolution='15T'),
         start, end,
     )
     combined = combined[~combined.index.duplicated(keep="first")]
+    # Resample 15-min prices to hourly (mean) to keep consistent with older data
+    combined = combined.resample("H").mean()
 
     new_df = pd.DataFrame({
         "datetime_utc": combined.index.tz_convert("UTC"),
